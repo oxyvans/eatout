@@ -8,7 +8,7 @@
 ## How to use?
 1. Clone dir EATOUT
 2. Run HolbertonSchoolC17Application file PATH = "EATOUT/holberton_school_C17/src/main/java/HolbertonSchoolC17Application"
-3. Search **path** in your browser
+3. Search **path** in your browser (or with curl in console)
 
 ## API Response: Object ClientSearchRestaurantResponse
 - Atributes: ```List<Restaurant> restaurants;```
