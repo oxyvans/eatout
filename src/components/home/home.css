@@ -1,20 +1,106 @@
-.home {
-    height: 100vh;
-    display: flex;
-}
+/* Home */
 
 .home__content {
-    grid-template-columns: 100px repeat(1, 1fr);
+    grid-template-columns: 50px repeat(1, 1fr);
     align-items: center;
-    justify-content: center;
 }
 
 .home__img {
-    background: url(../../assets/eatout.png);
+    background: url(../../assets/eatout-s.png);
     justify-self: center;
-    width: 500px;
-    height: 200px;
+    width: 700px;
+    height: 350px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
+/* socila */
+
+.home__social {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+
+.home__social-icon {
+    font-size: 1.5rem;
+    color: var(--title-color);
+    transition: .3s;
+}
+
+.home__social-icon:hover {
+    color: var(--hover-color);
+}
+
+
+/* Search box */
+.home__search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+  .group {
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  label {
+    position: absolute;
+    top: 36.6666666667px;
+    color: var(--title-color);
+    cursor: text;
+    transition: 0.25s ease;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+    border: none;
+    border-radius: 0;
+    color: var(--title-color);
+    background: var(--body-color);
+    font-size: 36.6666666667px;
+    transition: 0.3s ease;
+  }
+  input:valid ~ label {
+    top: 0;
+    font: 700 22px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  input:focus {
+    outline: none;
+  }
+  input:focus ~ label {
+    top: 0;
+    font: 700 22px;
+    color: var(--hover-color);
+  }
+  input:focus ~ .bar:before {
+    transform: translateX(0);
+  }
+  
+  .bar {
+    background: var(--title-color);
+    content: "";
+    width: 550px;
+    height: 2px;
+    transition: 0.3s ease;
+    position: relative;
+  }
+  .bar:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    background: var(--hover-color);
+    transform: translateX(-100%);
+  }
+
+  .button-i {
+    margin-top: 2rem;
+  }

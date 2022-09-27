@@ -131,7 +131,7 @@ img {
 
 /* layout */
 .container {
-    max-width: 968px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -146,7 +146,7 @@ img {
     background-color: var(--title-color);
     color: var(--container-color);
     padding: 1.25rem 2rem;
-    border-radius: 1rem;
+    border-radius: 3rem;
     font-weight: var(--font-medium);
     transition: .3s;
 }
