@@ -10,7 +10,7 @@
 2. Run HolbertonSchoolC17Application file PATH = "EATOUT/holberton_school_C17/src/main/java/HolbertonSchoolC17Application"
 
 ## API Response: Object ClientSearchRestaurantResponse
-- Atributes: ´´´List<Restaurant> restaurants;´´´
+- Atributes: ```List<Restaurant> restaurants;```
 
 #### Example response:
 {
