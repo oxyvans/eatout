@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/EATOUT.iml" filepath="$PROJECT_DIR$/.idea/EATOUT.iml" />
-      <module fileurl="file://$PROJECT_DIR$/holberton_school_C17/holberton_school_C17.iml" filepath="$PROJECT_DIR$/holberton_school_C17/holberton_school_C17.iml" />
-    </modules>
-  </component>
-</project>
