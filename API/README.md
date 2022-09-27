@@ -29,14 +29,14 @@
 ## PATHS: SNAKE_CASE example: Doña Marta --> Doña_Marta
 
 All restaurants:
-- http://localhost:9290/eatout/restaurants
+- http://localhost:9292/eatout/restaurants
 
 Restaurants by ubication y name:
-- http://localhost:9290/eatout/restaurants?name=Don_Pepe&ubication=Montevideo
+- http://localhost:9292/eatout/restaurants?name=Don_Pepe&ubication=Montevideo
 
 Restaurants by ubication:
-- http://localhost:9290/eatout/restaurants?&ubication=PDE
-- http://localhost:9290/eatout/restaurants?&ubication=Montevideo
+- http://localhost:9292/eatout/restaurants?&ubication=PDE
+- http://localhost:9292/eatout/restaurants?&ubication=Montevideo
 
 Restaurants by name:
-- http://localhost:9290/eatout/restaurants?name=Doña_Marta
+- http://localhost:9292/eatout/restaurants?name=Doña_Marta
