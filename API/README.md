@@ -7,7 +7,7 @@
 
 ## How to use?
 1. Clone dir EATOUT
-2. Run HolbertonSchoolC17Application file PATH = "EATOUT/holberton_school_C17/src/main/java/HolbertonSchoolC17Application"
+2. Command: mvn spring-boot:run
 
 ## API Response: Object ClientSearchRestaurantResponse
 - Atributes: List<Restaurant> restaurants;
