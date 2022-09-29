@@ -31,16 +31,16 @@ const Nav = () => {
             <div className='nav__toggle'>
                 <i class="uil uil-bars"></i>
             </div>
-       </nav>
-       <div className='nav__button'>
+            <div className='nav__button'>
             <div className='button button-n'>
-                    Sign in
+                Sign in
             </div>
             <div className='button button-n'>
                 Login
                 <i class="uil uil-sign-in-alt nav-icon"></i>
             </div>
-            </div>
+        </div>
+       </nav>
     </header>
   )
 }
