@@ -6,14 +6,14 @@ const Search = () => {
     <div className='home__search'>
         <div class="centered">
             <div class="group">
-                <input id="name" type="text" required="required"/>
+                <input className='input-search' id="name" type="text" required="required"/>
                 <label for="name">Restaurant</label>
                 <div class="bar"></div>
             </div>
         </div>
     <div class="centered">
         <div class="group">
-            <input id="name" type="text" required="required"/>
+            <input className='input-search' id="name" type="text" required="required"/>
             <label for="name">Location</label>
             <div class="bar"></div>
         </div>

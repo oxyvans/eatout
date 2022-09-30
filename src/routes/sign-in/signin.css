@@ -1,0 +1,50 @@
+.cont_conteiner {
+    justify-content: center;
+    width: 60%;
+}
+.cont_form{
+    margin: 2rem;
+}
+
+.form-div {
+    position: relative;
+    margin-bottom: var(--mb-2);
+    height: 4rem;
+}
+
+.form-input {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--title-color);
+    background: none;
+    color: var(--text-color);
+    outline: none;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    z-index: 1;
+    font-size: 1rem;
+}
+
+.form-tag {
+    position: absolute;
+    top: -0.75rem;
+    left: 1.25rem;
+    font-size: var(--smaller-font-size);
+    padding: 0.25rem;
+    background-color: var(--body-color);
+    z-index: 10;
+}
+
+.button-l{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-h {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+}

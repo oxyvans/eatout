@@ -56,7 +56,7 @@
     transition: 0.25s ease;
   }
   
-  input {
+  .input-search{
     display: block;
     width: 100%;
     padding-top: 25px;
@@ -67,20 +67,20 @@
     font-size: 36.6666666667px;
     transition: 0.3s ease;
   }
-  input:valid ~ label {
+.input-search:valid ~ label {
     top: 0;
     font: 700 22px;
     color: rgba(255, 255, 255, 0.5);
   }
-  input:focus {
+.input-search:focus {
     outline: none;
   }
-  input:focus ~ label {
+.input-search:focus ~ label {
     top: 0;
     font: 700 22px;
     color: var(--hover-color);
   }
-  input:focus ~ .bar:before {
+.input-search:focus ~ .bar:before {
     transform: translateX(0);
   }
   
