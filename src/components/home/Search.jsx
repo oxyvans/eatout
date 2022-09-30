@@ -4,23 +4,23 @@ import "./home.css"
 const Search = () => {
   return (
     <div className='home__search'>
-        <div class="centered">
-            <div class="group">
-                <input className='input-search' id="name" type="text" required="required"/>
+        <div className="centered">
+            <div className="group">
+                <input className='input-search' id="name" type="text" required="required"></input>
                 <label for="name">Restaurant</label>
-                <div class="bar"></div>
+                <div className="bar"></div>
             </div>
         </div>
-    <div class="centered">
-        <div class="group">
-            <input className='input-search' id="name" type="text" required="required"/>
+    <div className="centered">
+        <div className="group">
+            <input className='input-search' id="name" type="text" required="required"></input>
             <label for="name">Location</label>
-            <div class="bar"></div>
+            <div className="bar"></div>
         </div>
     </div>
     <div className='home__button'>
       <a href="#contact" className='button-i button button--flex'>Search 
-        <i class="uil uil-search button__icon"></i>
+        <i className="uil uil-search button__icon"></i>
       </a>
     </div>
   </div>

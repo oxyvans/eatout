@@ -41,14 +41,14 @@
     align-items: center;
 
 }
-  .group {
+.group {
     width: 100%;
     height: 110px;
     overflow: hidden;
     position: relative;
-  }
+}
   
-  label {
+label {
     position: absolute;
     top: 36.6666666667px;
     color: var(--title-color);
@@ -56,7 +56,7 @@
     transition: 0.25s ease;
   }
   
-  .input-search{
+.input-search{
     display: block;
     width: 100%;
     padding-top: 25px;
@@ -66,41 +66,42 @@
     background: var(--body-color);
     font-size: 36.6666666667px;
     transition: 0.3s ease;
-  }
+}
 .input-search:valid ~ label {
     top: 0;
     font: 700 22px;
     color: rgba(255, 255, 255, 0.5);
-  }
+}
 .input-search:focus {
     outline: none;
-  }
+}
 .input-search:focus ~ label {
     top: 0;
     font: 700 22px;
     color: var(--hover-color);
-  }
+}
 .input-search:focus ~ .bar:before {
     transform: translateX(0);
-  }
+}
   
-  .bar {
+.bar {
     background: var(--title-color);
     content: "";
     width: 550px;
     height: 2px;
     transition: 0.3s ease;
     position: relative;
-  }
-  .bar:before {
+}
+
+.bar:before {
     content: "";
     position: absolute;
     width: 100%;
     height: 150%;
     background: var(--hover-color);
     transform: translateX(-100%);
-  }
+}
 
-  .button-i {
+.button-i {
     margin-top: 2rem;
-  }
+}
