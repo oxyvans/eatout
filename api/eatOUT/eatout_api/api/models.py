@@ -10,9 +10,9 @@ class Restaurant(models.Model):
     telephone = models.IntegerField()
     descrip = models.CharField(max_length=200)
 
-class User(models.Model):
-    id = models.BigAutoField(auto_created=True, primary_key=True)
-    UserName = models.CharField(max_length=45)
-    telephone = models.IntegerField()
-    email = models.EmailField()
-    password = models.CharField(max_length=45)
+#class User(models.Model):
+ #   id = models.BigAutoField(auto_created=True, primary_key=True)
+  #  UserName = models.CharField(max_length=45)
+   # telephone = models.IntegerField()
+    #email = models.EmailField()
+    #password = models.CharField(max_length=45)
