@@ -4,8 +4,9 @@ import "./login.css"
 const Login = () => {
   return (
     <section className='cont container section' id='contact'>
-      <div className="button-h">  
+      <div className="button-h"><a href="/"> 
             <button className=' button button--flex'>Back</button>
+            </a>
       </div>
     <h2 className='section__title'>Login</h2>
     <div className="cont_conteiner container">
