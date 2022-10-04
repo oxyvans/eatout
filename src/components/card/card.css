@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.button_cont{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cont_des {
+    padding: .5rem;
+}
+
+.icon-card {
+    font-size: var(--h3-font-size);
+}
+
+.info-card {
+    padding: .5rem;
+}
