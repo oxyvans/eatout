@@ -1,6 +1,8 @@
 import React from 'react'
 import "./card.css"
 
+import { Link } from 'react-router-dom'
+
 const Card = (props) => {
   return (
     <div className='card' key={props.elem.id}>
@@ -26,9 +28,11 @@ const Card = (props) => {
         </div>
     </div>
     <div className='button_cont'>
-    <div className='button_card button'>
-        Reserve <i class="uil uil-calender"></i>
-    </div>
+    <Link to={`/restaurant/${props.elem.id}`}>
+        <div className='button_card button'>
+            Reserve <i class="uil uil-calender"></i>
+        </div>
+    </Link>
     </div>
 </div>
   )

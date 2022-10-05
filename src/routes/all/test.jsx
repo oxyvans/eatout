@@ -20,7 +20,7 @@ const restaurants = [
         img: img2
     },
     {
-        id: 1,
+        id: 3,
         name: "Don Pepe",
         location: "Pando 1223",
         tel: 22922234,
@@ -28,7 +28,7 @@ const restaurants = [
         img: img1
     },
     {
-        id: 2,
+        id: 4,
         name: "Los Panca",
         location: "Pando 2323",
         tel: 2292212,
@@ -36,7 +36,7 @@ const restaurants = [
         img: img2
     },
     {
-        id: 1,
+        id: 5,
         name: "Don Pepe",
         location: "Pando 1223",
         tel: 22922234,
@@ -44,7 +44,7 @@ const restaurants = [
         img: img1
     },
     {
-        id: 2,
+        id: 6,
         name: "Los Panca",
         location: "Pando 2323",
         tel: 2292212,
@@ -52,7 +52,7 @@ const restaurants = [
         img: img2
     },
     {
-        id: 1,
+        id: 7,
         name: "Don Pepe",
         location: "Pando 1223",
         tel: 22922234,
@@ -60,7 +60,7 @@ const restaurants = [
         img: img1
     },
     {
-        id: 2,
+        id: 8,
         name: "Los Panca",
         location: "Pando 2323",
         tel: 2292212,
@@ -68,7 +68,7 @@ const restaurants = [
         img: img2
     },
     {
-        id: 2,
+        id: 9,
         name: "Tu Parador",
         location: "Pando 1123",
         tel: 22922332,
