@@ -1,6 +1,5 @@
 import React from 'react'
 import "./restaurantData.css"
-import Menu from './Menu'
 
 const RestaurantData = (props) => {
   return (
@@ -19,10 +18,6 @@ const RestaurantData = (props) => {
               <div className='rest_tel'>
                   {props.elem.tel}
               </div>
-          </div>
-
-          <div className='rest_menu'>
-              <Menu />
           </div>
       </div>
   )
