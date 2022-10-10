@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { NavLink } from 'react-router-dom';
 import "./nav.css"
 
 const Nav = () => {
@@ -11,22 +12,22 @@ const Nav = () => {
         <nav className="nav container">
             <div className={click ? "nav__menu  show-menu" : "nav__menu "}>
                 <ul className="nav__list grid">
-                    <li className="nav__item" onClick={closeMenu}>
-                        <a href="/" className="nav__link active-link">
+                    <li className="nav__item">
+                        <NavLink to="/" end className="nav__link" onClick={closeMenu}>
                             <i class="uil uil-estate nav__icon"></i>Home
-                        </a>
+                        </NavLink>
                     </li>
 
                     <li className="nav__item">
-                        <a href="/all" className="nav__link" onClick={closeMenu}>
+                        <NavLink to="/all" className="nav__link" onClick={closeMenu}>
                         <i class="uil uil-restaurant nav__icon"></i>All
-                        </a>
+                        </NavLink>
                     </li>
 
                     <li className="nav__item">
-                        <a href="/map" className="nav__link" onClick={closeMenu}>
+                        <NavLink to="/map" className="nav__link" onClick={closeMenu}>
                         <i class="uil uil-map-marker nav__icon"></i>Map
-                        </a>
+                        </NavLink>
                     </li>
                 </ul>
                 <i class="uil uil-times nav__close" onClick={closeMenu}></i>

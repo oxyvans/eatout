@@ -12,7 +12,7 @@ const Footer = () => {
                     <a href="/map" className='footer__link'>Map</a>
                 </li>
                 <li>
-                    <a href="/" className='footer__link'>Home</a>
+                    <a href="/home" className='footer__link'>Home</a>
                 </li>
                 <li>
                     <a href="/all" className='footer__link'>All</a>
