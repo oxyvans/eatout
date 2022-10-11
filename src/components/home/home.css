@@ -102,12 +102,46 @@ label {
     height: 150%;
     background: var(--hover-color);
     transform: translateX(-100%);
+    transition: 1s ease;
 }
 
 .button-i {
     margin-top: 2rem;
 }
 
+/* scroll svg */
+
+.home_scroll {
+    height: 11rem;
+    display: flex;
+    justify-content: center;
+}
+
+.wheel {
+    animation: scroll 2s ease infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(3.75rem);
+    }
+}
+
+.home__scroll-name {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+    margin-left: 2px;
+}
+
+.home__scroll-a {
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
 
 @media screen and (max-width: 500px) {
     

@@ -1,16 +1,29 @@
 .card {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     justify-content: space-between;
     align-content: flex-start;
 }
+.img_card {
+    border-radius: 1rem 1rem 0rem 0rem;
+}
 
+.title {
+    margin-bottom: 10px;
+}
 .button_cont{
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.score-num {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    padding: .25rem;
 }
 
 .cont_des {
@@ -19,6 +32,7 @@
 
 .icon-card {
     font-size: var(--h3-font-size);
+    color: var(--title-color);
 }
 
 .info-card {
