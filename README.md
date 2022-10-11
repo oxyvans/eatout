@@ -1,70 +1,142 @@
-# Getting Started with Create React App
+# API that manage RESERVATIONS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Requiered technologies:
+- Maven
+- Java 11
+- Spring
 
-## Available Scripts
+## Guide to install requeriments in UBUNTU os:
 
-In the project directory, you can run:
 
-### `npm start`
+To install:
+For linux-x64.deb: https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+run commands: 
+- sudo apt update
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- java -version
+openjdk version "11.0.16" 2022-07-19 LTS
 
-### `npm test`
+- cd $HOME
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- wget https://archive.apache.org/dist/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
 
-### `npm run build`
+- tar -xvf apache-maven-3.6.3-bin.tar.gz
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Java & Maven como variables de entorno
+Editar el .bashrc de su usuario y agregar al final del mismo las siguientes variables con los correspondientes paths:
+#### AGREGADAS
+export JAVA_HOME="/usr/lib/jvm/java-11-amazon-corretto"
+export PATH="$PATH:$JAVA_HOME/bin"
+export M2_HOME="/home/<user name>/apache-maven-3.6.3"
+export M2="$M2_HOME/bin"
+export PATH="$PATH:$M2_HOME/bin"
+export MAVEN_OPTS="-Xms256m -Xmx512m"
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to use?
+1. Clone repo
+2. Command: mvn spring-boot:run  (in dir eatout_api)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Primary path: /api/v1
+## Port: 8034
+## Complete path: http://localhost:8034/api/v1
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Manage Reservations Path: /reservation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Example **BODY** Reservation: (requiered for some queries)
+```
+{
+	"idUser": 1,
+	"idRestaurant": 1,
+	"date": "2022-10-15",
+	"time": "21:00",
+	guests: 2
+}
+```
 
-## Learn More
+## queries with no pre requisites
+- (VIEW ALL RESERVATIONS) GET: /views 
+http://localhost:8034/api/v1/reservation/views
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **REQUIRED BODY** queries:
+- (ADD RESERVATION) POST: /add  
+http://localhost:8034/api/v1/reservation/add + **body**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- (UPDATE RESERVATION) PUT: /update  
+http://localhost:8034/api/v1/reservation/update + **body**
 
-### Code Splitting
+### **REQUIERED ID** queries: (val == id)
+- (VIEW RESERVATION) GET (val): /views/{val}  
+http://localhost:8034/api/v1/reservation/views/{**val**}
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- (DELETE RESERVATION) DELETE (val): /delete/{val}  
+http://localhost:8034/api/v1/reservation/delete/{**val**}
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#
 
-### Making a Progressive Web App
+EXTRA FUNCIONALITIES (no importante)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Manage Users Path: /user
+Example **BODY** User: (requiered for some queries)
+```
+{
+    "name": "Juan",
+    "lastname": "Perez",
+    "mail": "jpeerez@gmail.com"
+}
+```
 
-### Advanced Configuration
+## queries with no pre requisites
+- (VIEW ALL USERS) GET: /views 
+http://localhost:8034/api/v1/user/views
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### **REQUIRED BODY** queries:
+- (ADD USER) POST: /add  
+http://localhost:8034/api/v1/user/add + **body**
 
-### Deployment
+- (UPDATE USER) PUT: /update  
+http://localhost:8034/api/v1/user/update + **body**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### **REQUIERED ID** queries: (val == id)
+- (VIEW USER) GET (val): /views/{val}  
+http://localhost:8034/api/v1/user/views/{**val**}
 
-### `npm run build` fails to minify
+- (DELETE USER) DELETE (val): /delete/{val}  
+http://localhost:8034/api/v1/user/delete/{**val**}
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Manage Restaurants Path /restaurant:
+Example **BODY** Restaurant: (requiered for some queries)
+```
+{
+    "name": "Don pepe",
+    "location": "Punta Del Este",
+    "number": "099282832",
+    "description": "descripcion"
+}
+```
+
+## queries with no pre requisites
+- (VIEW ALL RESTAURANTS) GET: /views 
+http://localhost:8034/api/v1/restaurant/views
+
+### **REQUIRED BODY** queries:
+- (ADD RESTAURANT) POST: /add  
+http://localhost:8034/api/v1/restaurant/add + **body**
+
+- (UPDATE RESTAURANT) PUT: /update  
+http://localhost:8034/api/v1/restaurant/update + **body**
+
+### **REQUIERED ID** queries: (val == id)
+- (VIEW RESTAURANT) GET (val): /views/{val}  
+http://localhost:8034/api/v1/restaurant/views/{**val**}
+
+- (DELETE RESTAURANT) DELETE (val): /delete/{val}  
+http://localhost:8034/api/v1/restaurant/delete/{**val**} 
+
+
