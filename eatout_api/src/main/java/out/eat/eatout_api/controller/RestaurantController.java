@@ -2,9 +2,8 @@ package out.eat.eatout_api.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import out.eat.eatout_api.dao.ReservationRepository;
+
 import out.eat.eatout_api.dao.RestaurantRepository;
-import out.eat.eatout_api.entitys.Reservation;
 import out.eat.eatout_api.entitys.Restaurant;
 
 import java.util.List;

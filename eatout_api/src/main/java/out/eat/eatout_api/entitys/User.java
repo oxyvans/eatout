@@ -10,7 +10,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
     String name;
-    String lastname;
+    String phone;
     String mail;
 
     public User() {
@@ -21,7 +21,7 @@ public class User {
         super();
         this.id = id;
         this.name = name;
-        this.lastname = lastname;
+        this.phone = lastname;
         this.mail = mail;
     }
 
@@ -42,11 +42,11 @@ public class User {
     }
 
     public String getLastname() {
-        return lastname;
+        return phone;
     }
 
     public void setLastname(String lastname) {
-        this.lastname = lastname;
+        this.phone = lastname;
     }
 
     public String getMail() {
