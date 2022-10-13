@@ -1,21 +1,25 @@
-import React from 'react'
+import {React , useState} from 'react'
 import "./card.css"
+import restaurants from "../../routes/all/test"
 
 import { Link } from 'react-router-dom'
 
 const Card = (props) => {
+    const [id, setId] = useState(props.elem.id);
+    const img = restaurants[id].img;
+
   return (
-    <div className='card' key={props.elem.id}>
-    <img  className='img img_card' src={props.elem.img} alt="" />
+    <div className='card' key={id}>
+    <img  className='img img_card' src={img} alt="" />
     <div className='cont_des'>
-    <h1 className='title'>{props.elem.name}</h1>
+    <h1 className='title'>{props.elem.RestName}</h1>
         <div>
             <i class="uil uil-comment-alt-info icon-card"></i>
-            <spam className="info-card">{props.elem.des}</spam>
+            <spam className="info-card">{props.elem.descrip}</spam>
         </div>
         <div>
             <i class="uil uil-phone icon-card"></i>
-            <spam className="info-card">{props.elem.tel}</spam>
+            <spam className="info-card">{props.elem.telephone}</spam>
         </div>
         <div>
             <i class="uil uil-location-pin-alt icon-card"></i>
