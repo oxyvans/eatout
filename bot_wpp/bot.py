@@ -1,24 +1,22 @@
-from flask import Flask, request
+from flask import Flask, request, Response
 import requests
 from twilio.twiml.messaging_response import MessagingResponse
- 
-incoming_msg = request.values.get('Body', '').lower()
 
-response = MessagingResponse()
-msg = response.message()
-msg.body('this is the response/reply  from the bot.')
-         
+app = Flask(__name__)
 
-# chatbot logic
+@app.route("/", methods=["POST"])
 def bot():
- 
-    # user input
     user_msg = request.values.get('Body', '').lower()
- 
-    # creating object of MessagingResponse
-    response = MessagingResponse()
+    bot_resp = MessagingResponse()
+    msg = bot_resp.message()
+    
+    if 'hello' in user_msg:
+        msg.body("Hola como tas rey")
+    elif 'bien y tu?' in user_msg:
+        msg.body("Bien ak tranq")
+    else:
+        msg.body("Habla bien down")
+    return Response(str(bot_resp), mimetype="application/xml"), 200
 
-    # displaying result
-    msg = response.message("hola")
- 
-    return str(response)
+if __name__ == "__main__":
+    app.run(debug=True)
