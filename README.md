@@ -32,6 +32,8 @@ export M2_HOME="/home/<user name>/apache-maven-3.6.3"
 export M2="$M2_HOME/bin"
 export PATH="$PATH:$M2_HOME/bin"
 export MAVEN_OPTS="-Xms256m -Xmx512m"
+	
+- source ~/.bashrc
 
 
 ## How to use?
