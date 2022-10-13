@@ -6,14 +6,9 @@ import { Link } from 'react-router-dom'
 const Card = (props) => {
   return (
     <div className='card' key={props.elem.id}>
-    <h1 className='title'>{props.elem.name}</h1>
-    <div>
-    <i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i>
-    </div>
-    <div className='cont_img'>
-        <img  className='img' src={props.elem.img} alt="" />
-    </div>
+    <img  className='img img_card' src={props.elem.img} alt="" />
     <div className='cont_des'>
+    <h1 className='title'>{props.elem.name}</h1>
         <div>
             <i class="uil uil-comment-alt-info icon-card"></i>
             <spam className="info-card">{props.elem.des}</spam>
@@ -28,8 +23,12 @@ const Card = (props) => {
         </div>
     </div>
     <div className='button_cont'>
+        <div className='score'>
+            <span className='score-num'>{props.elem.rank}</span>
+            <i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star-half-alt"></i>
+        </div>
     <Link to={`/restaurant/${props.elem.id}`}>
-        <div className='button_card button'>
+        <div className='button_card button_small'>
             Reserve <i class="uil uil-calender"></i>
         </div>
     </Link>

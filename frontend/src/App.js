@@ -5,8 +5,8 @@ import Map from './routes/map/Map';
 import Login from './routes/login/Login';
 import Signin from './routes/sign-in/Signin';
 import Restaurant from './routes/restaurant/Restaurant';
-import Footer from './components/footer/Footer';
 import Nav from './components/nav/Nav';
+import Footer from './components/footer/Footer'
 
 import { BrowserRouter, Route, Routes} from "react-router-dom";
 
@@ -22,7 +22,6 @@ function App() {
         <Route path='/sign-in' element={<Signin />} />
         <Route path='/restaurant/:id' element={<Restaurant />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }

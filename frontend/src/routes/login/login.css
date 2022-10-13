@@ -48,3 +48,9 @@
     left: 0;
     padding: 2rem;
 }
+
+@media screen and (max-width: 500px) {
+    .cont_conteiner {
+       width: 100%;
+    }
+}
