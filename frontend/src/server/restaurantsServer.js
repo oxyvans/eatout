@@ -7,3 +7,7 @@ export const listRestaurants =  async () => {
 export const topRestaurants =  async () => {
     return await fetch(API_URL+"top");
 };
+
+export const SearchRestaurants =  async (name) => {
+    return await fetch(API_URL + name);
+};
