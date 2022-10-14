@@ -1,7 +1,9 @@
 import{ React, useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import "./home.css"
 
 const Search = () => {
+  const navigate = useNavigate();
 
   const [data, setData] = useState({
     restaurant: '',
@@ -19,7 +21,7 @@ const Search = () => {
 
   const enviarDatos = (event) => {
     event.preventDefault()
-    console.log('enviando datos...' + data.restaurant + ' ' + data.location)
+    navigate('/all');
   }
 
   return (
