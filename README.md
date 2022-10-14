@@ -41,11 +41,10 @@ export MAVEN_OPTS="-Xms256m -Xmx512m"
 1. Clone repo
 2. Command: mvn spring-boot:run  (in dir eatout_api)
 
-
-## Primary path: /reservation
-## Port: 8034
-## Complete path: http://localhost:8034/reservation
-## Google Cloud Host IP: 35.247.214.17
+- Primary path: /reservation
+- Port: 8034
+- Complete path: http://localhost:8034/reservation
+- Google Cloud Host IP: 35.247.214.17
 
 ## Manage Reservations Path: /reservation
 
