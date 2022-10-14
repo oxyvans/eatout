@@ -48,4 +48,9 @@ public class ReservationController {
 
     @DeleteMapping("/delete/{val}")
     public Response delete(@PathVariable Long val) { return service.delete(val); }
+
+    @GetMapping("")
+    public String reservation(){
+        return "Requests admited: https://documenter.getpostman.com/view/23199255/2s83zpK1fw";
+    }
 }
