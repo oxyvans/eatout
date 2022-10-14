@@ -1,3 +1,4 @@
+from asyncio import constants
 from django.shortcuts import render
 from django.views import View
 from .models import Restaurant
@@ -61,3 +62,32 @@ class RestaurantView(View):
             data = {'message': "Not found"}
         return JsonResponse(data)
 
+
+class RestaurantTop(View):
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+    
+    def get(self, request):
+        
+        rests = list(Restaurant.objects.all().filter(rank__gt = 8).values()[0:10])
+        if len(rests) > 0:
+            data = {'message': "Success", 'TopRestaurants': rests}
+        else:
+            data = {'message': "Not found"}
+        return JsonResponse(data)
+
+class RestaurantSearch(View):
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+    
+    def get(self, request, name):
+        rests = list(Restaurant.objects.filter(RestName = name).values())
+        if len(rests) > 0:
+            data = {'message': "Success", 'Search': rests}
+        else:
+            data = {'message': "Not found"}
+        return JsonResponse(data)

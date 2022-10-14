@@ -1,8 +1,7 @@
 import React, { useState , useEffect} from 'react'
-import restaurants from "./test.jsx"
 import Card from '../../components/card/Card.jsx'
 import "./all.css"
-import * as AllServer from "./AllServer"
+import * as Server from "../../server/restaurantsServer"
 
 const All = () => {
 
@@ -10,7 +9,7 @@ const All = () => {
 
   const listRest =  async () => {
       try{
-          const res =  await AllServer.listRestaurants();
+          const res =  await Server.listRestaurants();
           const data = await res.json();
           const r = data["restaurants"];
           setRest(r);
