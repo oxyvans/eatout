@@ -2,8 +2,9 @@ package out.eat.eatout_api.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import out.eat.eatout_api.dao.ReservationRepository;
-import out.eat.eatout_api.entitys.Reservation;
+import out.eat.eatout_api.model.entitys.Reservation;
+import out.eat.eatout_api.model.Response;
+import out.eat.eatout_api.service.ReservationService;
 
 import java.util.List;
 import java.util.Optional;
@@ -13,31 +14,38 @@ import java.util.Optional;
 public class ReservationController {
 
     @Autowired
-    private ReservationRepository repo;
+    private ReservationService service;
 
     @PostMapping("/add")
-    public Reservation add(@RequestBody Reservation val) {
-        return repo.save(val);
+    public Response add(@RequestBody Reservation val) {
+        return service.add(val);
     }
 
     @GetMapping("/views")
     public List<Reservation> views(){
-        return repo.findAll();
+        return service.views();
     }
 
     @GetMapping("/views/{val}")
     public Optional<Reservation> views(@PathVariable Long val) {
-        return repo.findById(val);
+        return service.views(val);
+    }
+
+    @GetMapping("/views/restaurant/{val}")
+    public List<Reservation> viewsRestaurant(@PathVariable Long val) {
+        return service.viewsRestaurant(val);
+    }
+
+    @GetMapping("/views/user/{val}")
+    public List<Reservation> viewsUser(@PathVariable Long val) {
+        return service.viewsUser(val);
     }
 
     @PutMapping("/update")
-    public Reservation views(@RequestBody Reservation val) {
-        return repo.save(val);
+    public Response update(@RequestBody Reservation val) {
+        return service.update(val);
     }
 
     @DeleteMapping("/delete/{val}")
-    public String delete(@PathVariable Long val) {
-        repo.deleteById(val);
-        return "Id : " + val + " delete";
-    }
+    public Response delete(@PathVariable Long val) { return service.delete(val); }
 }

@@ -3,7 +3,7 @@ package out.eat.eatout_api.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import out.eat.eatout_api.dao.UserRepository;
-import out.eat.eatout_api.entitys.User;
+import out.eat.eatout_api.model.entitys.User;
 
 import java.util.List;
 import java.util.Optional;

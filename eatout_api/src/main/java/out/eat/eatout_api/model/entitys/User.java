@@ -1,4 +1,4 @@
-package out.eat.eatout_api.entitys;
+package out.eat.eatout_api.model.entitys;
 
 import javax.persistence.*;
 
