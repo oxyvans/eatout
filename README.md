@@ -1,4 +1,5 @@
 # API that manage RESERVATIONS
+Requests admited: https://documenter.getpostman.com/view/23199255/2s83zpK1fw
 
 ## Requiered technologies:
 - Maven
