@@ -60,10 +60,10 @@ Example **BODY** Reservation: (requiered for some queries)
 ```
 
 ## queries with no pre requisites
-- (VIEW ALL RESERVATIONS) GET: /views 
-todas las reservaciones: http://localhost:8034/reservation/views
-todas las reservaciones para un restaurant: http://localhost:8034/reservation/views/restaurant/{idRestaurant}
-todas las reservaciones para un usuario: http://localhost:8034/reservation/views/user/{idUser}
+GET methods: 
+- todas las reservaciones: http://localhost:8034/reservation/views
+- todas las reservaciones para un restaurant: http://localhost:8034/reservation/views/restaurant/{idRestaurant}
+- todas las reservaciones para un usuario: http://localhost:8034/reservation/views/user/{idUser}
 	
 	
 	
