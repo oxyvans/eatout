@@ -82,10 +82,11 @@ http://localhost:8034/reservation/views/{**val**}
 - (DELETE RESERVATION) DELETE (val): /delete/{val}  
 http://localhost:8034/reservation/delete/{**val**}
 
+\
+\
+\
 
-#
-
-EXTRA FUNCIONALITIES (no importante)
+# EXTRA FUNCIONALITIES (no importante)
 
 ## Manage Users Path: /user
 Example **BODY** User: (requiered for some queries)
