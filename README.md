@@ -45,6 +45,7 @@ export MAVEN_OPTS="-Xms256m -Xmx512m"
 ## Primary path: /reservation
 ## Port: 8034
 ## Complete path: http://localhost:8034/reservation
+## Google Cloud Host IP: 35.247.214.17
 
 ## Manage Reservations Path: /reservation
 
