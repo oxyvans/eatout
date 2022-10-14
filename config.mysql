@@ -1,8 +1,8 @@
 -- script that creates the MySQL server user
 CREATE USER
-	IF NOT EXISTS 'user_0d_1'@'localhost'
-	IDENTIFIED BY '1Contraseña_';
+	IF NOT EXISTS 'user1'@'localhost'
+	IDENTIFIED BY 'passuser1';
 
 GRANT ALL PRIVILEGES
 	ON *.*
-	TO 'user_0d_1'@'localhost';
+	TO 'user1'@'localhost';
