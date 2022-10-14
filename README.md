@@ -59,7 +59,7 @@ Example **BODY** Reservation: (requiered for some queries)
 }
 ```
 
-## queries with no pre requisites
+## queries
 GET methods: 
 - todas las reservaciones: http://localhost:8034/reservation/views
 - todas las reservaciones para un restaurant: http://localhost:8034/reservation/views/restaurant/{idRestaurant}
