@@ -1,4 +1,5 @@
 # API that manage RESERVATIONS
+Requests admited: https://documenter.getpostman.com/view/23199255/2s83zpK1fw
 
 ## Requiered technologies:
 - Maven
@@ -41,10 +42,9 @@ export MAVEN_OPTS="-Xms256m -Xmx512m"
 2. Command: mvn spring-boot:run  (in dir eatout_api)
 
 
-## Primary path: /api/v1
+## Primary path: /reservation
 ## Port: 8034
-## Complete path: http://localhost:8034/api/v1
-
+## Complete path: http://localhost:8034/reservation
 
 ## Manage Reservations Path: /reservation
 
@@ -60,22 +60,27 @@ Example **BODY** Reservation: (requiered for some queries)
 ```
 
 ## queries with no pre requisites
-- (VIEW ALL RESERVATIONS) GET: /views 
-http://localhost:8034/api/v1/reservation/views
+GET methods: 
+- todas las reservaciones: http://localhost:8034/reservation/views
+- todas las reservaciones para un restaurant: http://localhost:8034/reservation/views/restaurant/{idRestaurant}
+- todas las reservaciones para un usuario: http://localhost:8034/reservation/views/user/{idUser}
+	
+	
+	
 
-### **REQUIRED BODY** queries:
+#### **REQUIRED BODY** queries:
 - (ADD RESERVATION) POST: /add  
-http://localhost:8034/api/v1/reservation/add + **body**
+http://localhost:8034reservation/add + **body**
 
 - (UPDATE RESERVATION) PUT: /update  
-http://localhost:8034/api/v1/reservation/update + **body**
+http://localhost:8034/reservation/update + **body**
 
-### **REQUIERED ID** queries: (val == id)
+#### **REQUIERED ID** queries: (val == id)
 - (VIEW RESERVATION) GET (val): /views/{val}  
-http://localhost:8034/api/v1/reservation/views/{**val**}
+http://localhost:8034/reservation/views/{**val**}
 
 - (DELETE RESERVATION) DELETE (val): /delete/{val}  
-http://localhost:8034/api/v1/reservation/delete/{**val**}
+http://localhost:8034/reservation/delete/{**val**}
 
 
 #
@@ -86,29 +91,29 @@ EXTRA FUNCIONALITIES (no importante)
 Example **BODY** User: (requiered for some queries)
 ```
 {
-    "name": "Juan",
-    "lastname": "Perez",
+    "name": "Juan Perez",
+    "phone": "099123123",
     "mail": "jpeerez@gmail.com"
 }
 ```
 
 ## queries with no pre requisites
 - (VIEW ALL USERS) GET: /views 
-http://localhost:8034/api/v1/user/views
+http://localhost:8034/user/views
 
 ### **REQUIRED BODY** queries:
 - (ADD USER) POST: /add  
-http://localhost:8034/api/v1/user/add + **body**
+http://localhost:8034/user/add + **body**
 
 - (UPDATE USER) PUT: /update  
-http://localhost:8034/api/v1/user/update + **body**
+http://localhost:8034/user/update + **body**
 
 ### **REQUIERED ID** queries: (val == id)
 - (VIEW USER) GET (val): /views/{val}  
-http://localhost:8034/api/v1/user/views/{**val**}
+http://localhost:8034/user/views/{**val**}
 
 - (DELETE USER) DELETE (val): /delete/{val}  
-http://localhost:8034/api/v1/user/delete/{**val**}
+http://localhost:8034/user/delete/{**val**}
 
 
 
@@ -125,20 +130,20 @@ Example **BODY** Restaurant: (requiered for some queries)
 
 ## queries with no pre requisites
 - (VIEW ALL RESTAURANTS) GET: /views 
-http://localhost:8034/api/v1/restaurant/views
+http://localhost:8034/restaurant/views
 
 ### **REQUIRED BODY** queries:
 - (ADD RESTAURANT) POST: /add  
-http://localhost:8034/api/v1/restaurant/add + **body**
+http://localhost:8034/restaurant/add + **body**
 
 - (UPDATE RESTAURANT) PUT: /update  
-http://localhost:8034/api/v1/restaurant/update + **body**
+http://localhost:8034/restaurant/update + **body**
 
 ### **REQUIERED ID** queries: (val == id)
 - (VIEW RESTAURANT) GET (val): /views/{val}  
-http://localhost:8034/api/v1/restaurant/views/{**val**}
+http://localhost:8034/restaurant/views/{**val**}
 
 - (DELETE RESTAURANT) DELETE (val): /delete/{val}  
-http://localhost:8034/api/v1/restaurant/delete/{**val**} 
+http://localhost:8034/restaurant/delete/{**val**} 
 
 
