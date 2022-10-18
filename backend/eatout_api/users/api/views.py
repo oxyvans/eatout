@@ -26,17 +26,6 @@ class UserSignUp(generics.GenericAPIView):
 #login
 class CustomAuthToken(ObtainAuthToken):
     def post(self, request, *args, **kwargs):
-        username = request.POST['username']
-        password = request.POST['password']
-        user = authenticate(request, username=username, password=password)
-        if user is not None:
-            login(request, user)
-        else:
-           return ({
-            "message": "no ando"
-           })
-       
-        """ 
         serializer=self.serializer_class(data=request.data, context={'request':request})
         serializer.is_valid(raise_exception=True)
         user=serializer.validated_data['user']
@@ -45,11 +34,9 @@ class CustomAuthToken(ObtainAuthToken):
             'token':token.key,
             'user_id':user.pk
         })
-      """
 
-class LogoutView(LogoutView):
-    def post(self, request):
-        logout(request)
-        return Response({
-            'message': "logout successful"
-        })
+class LogoutView(APIView):
+    def post(self, request, format=None):
+        if request.user.is_authenticated:
+            request.user.auth_token.delete()
+        return Response(status=status.HTTP_200_OK)
