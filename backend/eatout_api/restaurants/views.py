@@ -1,4 +1,5 @@
 from asyncio import constants
+from cgitb import lookup
 from django.shortcuts import render
 from django.views import View
 from .models import Restaurant
@@ -6,6 +7,7 @@ from django.http import JsonResponse
 from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt
 import json
+from django.shortcuts import get_object_or_404
 
 
 # Create your views here.
@@ -91,3 +93,18 @@ class RestaurantSearch(View):
         else:
             data = {'message': "Not found"}
         return JsonResponse(data)
+
+class RestaurantLocationSearch(View):
+
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request, location):
+        rests = list(Restaurant.objects.filter(location = location).values())
+        if len(rests) > 0:
+            data = {'message': "Success", 'Search': rests}
+        else:
+            data = {'message': "Not found"}
+        return JsonResponse(data)
+    

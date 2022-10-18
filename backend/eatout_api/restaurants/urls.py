@@ -1,9 +1,10 @@
 from django.urls import path
-from .views import RestaurantSearch, RestaurantTop, RestaurantView
+from .views import RestaurantLocationSearch, RestaurantSearch, RestaurantTop, RestaurantView
 
 urlpatterns=[
     path('restaurants/', RestaurantView.as_view(), name='restaurant'),
     path('restaurants/<int:id>', RestaurantView.as_view(), name='restaurant_process'),
     path('restaurants/top', RestaurantTop.as_view(), name='restaurant_top'),
-    path('restaurants/search/<name>', RestaurantSearch.as_view(), name='restaurant_search')
+    path('restaurants/name/<name>', RestaurantSearch.as_view(), name='restaurant_search'),
+    path('restaurants/location/<location>', RestaurantLocationSearch.as_view(), name='restaurant_search_by_location')
 ]
