@@ -24,6 +24,8 @@ public class Reservation {
 
     ReservationStatus status;
 
+    String noUser;
+
     public Reservation() { super(); }
 
     public Reservation(Long id, Long idUser, Long idRestaurant, String date, String time, Integer guests, ReservationStatus status) {
@@ -35,6 +37,15 @@ public class Reservation {
         this.time = time;
         this.guests = guests;
         this.status = status;
+        this.noUser = null;
+    }
+
+    public String getNoUser() {
+        return noUser;
+    }
+
+    public void setNoUser(String noUser) {
+        this.noUser = noUser;
     }
 
     public ReservationStatus getStatus() {

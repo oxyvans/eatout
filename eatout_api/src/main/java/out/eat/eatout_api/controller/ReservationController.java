@@ -3,6 +3,7 @@ package out.eat.eatout_api.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import out.eat.eatout_api.external.Bot;
+import out.eat.eatout_api.model.ReservationStatus;
 import out.eat.eatout_api.model.entitys.Reservation;
 import out.eat.eatout_api.model.Response;
 import out.eat.eatout_api.service.ReservationService;
@@ -23,10 +24,23 @@ public class ReservationController {
     @PostMapping("/add")
     public Response add(@RequestBody Reservation val) {
 
+        val.setStatus(ReservationStatus.AWAITING);
         Response res = service.add(val);
         res.setMsg(bot.sendMessage(res.getReservation()));
         return res;
     }
+
+    @PostMapping("/addNoUser")
+    public Response addNoUser(@RequestBody Reservation val, @RequestParam String name, @RequestParam String tel, @RequestParam String mail) {
+
+        val.setStatus(ReservationStatus.AWAITING);
+        val.setNoUser("Nombre: " + name + ", tel: " + tel + ", mail: " + mail);
+        val.setIdUser(null);
+        Response res = service.add(val);
+        res.setMsg(bot.sendMessage(res.getReservation()));
+        return res;
+    }
+
 
     @GetMapping("/views")
     public List<Reservation> views(){
