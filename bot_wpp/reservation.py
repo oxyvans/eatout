@@ -9,6 +9,17 @@ class Reservation:
         self.date = date
         self.time = time
         self.guests = guests
+        self.status = "AWAITING"
+    
+    @property
+    def status(self):
+        """ getter """
+        return self.__status
+    
+    @status.setter
+    def status(self, x):
+        """ setter """
+        self.__status = x
     
     @property
     def idUser(self):
@@ -68,6 +79,7 @@ class Reservation:
         dic["date"] = self.date
         dic["time"] = self.time
         dic["guests"] = self.guests
+        dic["status"] = self.status
         return dic    
      
     def __str__(self):

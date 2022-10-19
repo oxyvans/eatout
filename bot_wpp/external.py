@@ -22,9 +22,9 @@ def delete_reservation(Id = None):
     if Id is None:
         return "Error type None"
     try:
-        url = f'http://35.247.214.17:8034/reservation/delete/{Id}'
+        url = f'http://localhost:8034/reservation/delete/{Id}'
         x = requests.delete(url)
-        print(x)
+        return (x.text)
     except Exception as e:
         return "Error" + str(e)
 

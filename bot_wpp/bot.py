@@ -19,7 +19,7 @@ def bot():
         #return "1"
     elif 'Rechazar' in user_msg:
         res = user_msg.split(' ')[1]
-        
+        res = eval(delete_reservation(res))["status"]
         msg.body(f"Reserva {res} rechazada.")
         #return "0"
     else:
