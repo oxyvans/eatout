@@ -11,7 +11,7 @@ import java.util.List;
 @Service
 public class Bot {
 
-    String url = "http://localhost:5000/send-message?msg=";
+    String url = "http://localhost:5001/send-message?msg=";
 
     public String sendMessage(Reservation res){
 
