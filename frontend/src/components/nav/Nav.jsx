@@ -34,7 +34,7 @@ const Nav = () => {
             </div>
             <div className='section_button'>
                 <a href="/login" className='button_nav button_small'>Login <i class="uil uil-user"></i></a>
-                <a href="sign-in" className='button_nav button_small'>Sign in <i class="uil uil-user-plus"></i></a>
+                <a href="/sign-up" className='button_nav button_small'>Sign Up <i class="uil uil-user-plus"></i></a>
             </div>
             <div className='nav__toggle' onClick={handleClick}>
                 <i class="uil uil-bars"></i>

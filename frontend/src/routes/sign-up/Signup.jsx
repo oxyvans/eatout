@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Signin = () => {
+const Signup = () => {
   return (
     <section className='cont container section' id='contact'>
-    <h2 className='section__title'>Sign in</h2>
+    <h2 className='section__title'>Sign Up</h2>
     <div className="cont_conteiner container">
         <form className='cont_form'>
             <div className='form-div'>
@@ -36,7 +36,7 @@ const Signin = () => {
                     placeholder='Insert your Password'/>
             </div>
             <div className="button-l">  
-            <button className=' button button--flex'>Sign in
+            <button className=' button button--flex'>Sign Up
             <i class="uil uil-sign-in-alt nav-icon"></i>
             </button>
             </div>
@@ -46,4 +46,4 @@ const Signin = () => {
   )
 }
 
-export default Signin
+export default Signup

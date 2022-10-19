@@ -24,7 +24,11 @@ const restaurants = [
     },
     {
         id: 5,
-        img: img1
+        img: img2
+    },
+    {
+        id: 6,
+        img: img3
     }
 ]
 
