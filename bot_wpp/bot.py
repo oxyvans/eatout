@@ -10,12 +10,14 @@ def bot():
     bot_resp = MessagingResponse()
     msg = bot_resp.message()
     
-    if 'hello' in user_msg:
-        msg.body("Hola como tas rey")
-    elif 'bien y tu?' in user_msg:
-        msg.body("Bien ak tranq")
+    if 'si' in user_msg:
+        msg.body("Se confirma la reserva.")
+        #return "1"
+    elif 'no' in user_msg:
+        msg.body("Reserva rechazada.")
+        #return "0"
     else:
-        msg.body("Habla bien down")
+        msg.body("No reconozco ese mensaje. Intente nuevamente.")
     return Response(str(bot_resp), mimetype="application/xml"), 200
 
 if __name__ == "__main__":
