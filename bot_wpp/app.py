@@ -3,8 +3,7 @@
 from flask import Flask, request
 from requests import delete
 from send_message import send_message
-from reservation import Reservation
-from external import confirmation_reservation, update_status
+from external import update_status
 app = Flask(__name__)
 
 
@@ -16,21 +15,12 @@ def hello():
 @app.route('/send-message', strict_slashes=False)
 def send():
     """ Prints a Message when / is called """
-    idUser = request.args.get('idUser')
-    idRestaurant = request.args.get('idRestaurant')
-    date = request.args.get('date')
-    time = request.args.get('time')
-    guests = request.args.get('guests')
-  
-    nueva = Reservation(idUser, idRestaurant, date, time, guests)
     
-    res = confirmation_reservation(nueva)
-    idReserva = eval(res)["msg"]
-        
-    msg = f"Día {nueva.time}, Hora: {nueva.date}, Cantidad de personas: {nueva.guests}. Responde 'Rechazar {idReserva}' para rechazarla."
-    send_message(msg)
+    msg = request.args.get('msg')
+  #  msg = f"Día {nueva.time}, Hora: {nueva.date}, Cantidad de personas: {nueva.guests}. Responde 'Rechazar {idReserva}' para rechazarla."
+    send_message(msg.replace('_', ' '))
     
-    return f"Send {idReserva}! Reservation to DB: {res}"
+    return "OK"
 
 if __name__ == "__main__":
     """ Main Function """

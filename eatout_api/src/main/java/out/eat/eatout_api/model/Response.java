@@ -1,6 +1,4 @@
 package out.eat.eatout_api.model;
-
-import org.springframework.http.HttpStatus;
 import out.eat.eatout_api.model.entitys.Reservation;
 
 public class Response {
@@ -34,5 +32,13 @@ public class Response {
 
     public void setMsg(String msg) {
         this.msg = msg;
+    }
+
+    public Reservation getReservation() {
+        return reservation;
+    }
+
+    public void setReservation(Reservation reservation) {
+        this.reservation = reservation;
     }
 }

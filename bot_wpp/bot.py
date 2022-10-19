@@ -12,7 +12,7 @@ def bot():
     bot_resp = MessagingResponse()
     msg = bot_resp.message()
     
-    if 'Confirmar' in user_msg:
+    if 'confirmar' in user_msg:
         res = user_msg.split(' ')[1]
         res = update_status(id)
         if ("ERROR" in res):
@@ -20,7 +20,7 @@ def bot():
         else:
             msg.body(f"Se confirma la reserva {id}.")
         #return "1"
-    elif 'Rechazar' in user_msg:
+    elif 'rechazar' in user_msg:
         id = user_msg.split(' ')[1]
         res = delete_reservation(id)
         if ("ERROR" in res):
