@@ -1,3 +1,5 @@
+import http
+from time import timezone
 from rest_framework import generics, status
 from rest_framework.response import Response
 from .serializers import UserSerializer
@@ -8,6 +10,7 @@ from rest_framework.views import APIView
 from django.contrib.sessions.backends.db import SessionStore
 from django.contrib.auth import logout, login, authenticate
 from django.contrib.auth.views import LogoutView
+from datetime import datetime
 
 
 class UserSignUp(generics.GenericAPIView):
@@ -32,11 +35,21 @@ class CustomAuthToken(ObtainAuthToken):
         token, created=Token.objects.get_or_create(user=user)
         return Response({
             'token':token.key,
-            'user_id':user.pk
+            'user_id':user.pk,
         })
 
-class LogoutView(APIView):
+class LogoutView(ObtainAuthToken):
     def post(self, request, format=None):
-        if request.user.is_authenticated:
-            request.user.auth_token.delete()
-        return Response(status=status.HTTP_200_OK)
+        #if request.user.is_authenticated:
+        serializer=self.serializer_class(data=request.data, context={'request':request})
+        serializer.is_valid(raise_exception=True)
+        user=serializer.validated_data['user']
+        user.last_login = datetime.utcnow()
+        aux = user.last_login
+        user.save()
+        tok = str(user.auth_token)
+        user.auth_token.delete()
+        return Response({
+            "message": "logged out creo",
+            "aux": tok,
+        })
