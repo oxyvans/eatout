@@ -1,3 +1,4 @@
+#WPP CHATBOT LOGIC FOR CLIENT TO ACCEPT OR DECLINE RESERVATION
 from flask import Flask, request, Response
 import requests
 from twilio.twiml.messaging_response import MessagingResponse

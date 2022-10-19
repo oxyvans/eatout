@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#SCRIPT TO SEND A CONFIRMATION WPP OF THE RESERVATION
 
 from twilio.rest import Client
 
