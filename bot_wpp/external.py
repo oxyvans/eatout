@@ -28,3 +28,12 @@ def delete_reservation(Id = None):
     except Exception as e:
         return "Error" + str(e)
 
+def update_status(Id = None):
+    if Id is None:
+        return "Error type None"
+    try:
+        url = f"http://localhost:8034/reservation/update-status/{Id}"
+        x = requests.put(url)
+        return x.text
+    except Exception as e:
+        return "Error" + str(e)
