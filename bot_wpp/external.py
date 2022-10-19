@@ -17,3 +17,13 @@ def confirmation_reservation(reservation = None):
         return (x.text)
     except Exception as e:
         return "Error " + str(e)
+
+def delete_reservation(Id = None):
+    if Id is None:
+        return "Error type None"
+    try:
+        url = f'http://35.247.214.17:8034/reservation/delete/{Id}'
+        x = requests.delete(url)
+        print(x)
+    except Exception as e:
+        return "Error" + str(e)
