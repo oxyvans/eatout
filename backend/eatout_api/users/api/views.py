@@ -45,11 +45,8 @@ class LogoutView(ObtainAuthToken):
         serializer.is_valid(raise_exception=True)
         user=serializer.validated_data['user']
         user.last_login = datetime.utcnow()
-        aux = user.last_login
         user.save()
-        tok = str(user.auth_token)
         user.auth_token.delete()
         return Response({
-            "message": "logged out creo",
-            "aux": tok,
+            "message": "success",
         })
