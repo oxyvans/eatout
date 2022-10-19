@@ -6,7 +6,6 @@ import out.eat.eatout_api.model.entitys.Reservation;
 public class Response {
     Status status;
     String msg;
-
     Reservation reservation;
 
     public Response(Status status, String msg) {

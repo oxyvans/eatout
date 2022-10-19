@@ -10,7 +10,7 @@ def confirmation_reservation(reservation = None):
     
     try:
         print(f"confirmation reservation Día {reservation.time}, Hora: {reservation.date}, Cantidad de personas: {reservation.guests}." )
-        url = 'http://localhost:8034/reservation/add'
+        url = 'http://35.247.214.17:8034/reservation/add'
     
         print(reservation.to_dict())
         x = requests.post(url, json = (reservation.to_dict()))
@@ -22,7 +22,7 @@ def delete_reservation(Id = None):
     if Id is None:
         return "Error type None"
     try:
-        url = f'http://localhost:8034/reservation/delete/{Id}'
+        url = f'http://35.247.214.17:8034/reservation/delete/{Id}'
         x = requests.delete(url)
         return (x.text)
     except Exception as e:
@@ -32,7 +32,7 @@ def update_status(Id = None):
     if Id is None:
         return "Error type None"
     try:
-        url = f"http://localhost:8034/reservation/update-status/{Id}"
+        url = f"http://35.247.214.17:8034/reservation/update-status/{Id}"
         x = requests.put(url)
         return x.text
     except Exception as e:

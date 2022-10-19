@@ -4,7 +4,7 @@ from flask import Flask, request
 from requests import delete
 from send_message import send_message
 from reservation import Reservation
-from external import confirmation_reservation, delete_reservation
+from external import confirmation_reservation, update_status
 app = Flask(__name__)
 
 
@@ -30,10 +30,7 @@ def send():
     msg = f"Día {nueva.time}, Hora: {nueva.date}, Cantidad de personas: {nueva.guests}. Responde 'Rechazar {idReserva}' para rechazarla."
     send_message(msg)
     
-    print("delete")
-    res = delete_reservation("2")
-    
-    return "Send! Reservation to DB: " + res
+    return f"Send {idReserva}! Reservation to DB: {res}"
 
 if __name__ == "__main__":
     """ Main Function """

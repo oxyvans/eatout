@@ -1,7 +1,7 @@
 #WPP CHATBOT LOGIC FOR CLIENT TO ACCEPT OR DECLINE RESERVATION
 from flask import Flask, request, Response
 import requests
-from external import delete_reservation
+from external import delete_reservation, update_status
 from twilio.twiml.messaging_response import MessagingResponse
 
 app = Flask(__name__)
@@ -14,13 +14,19 @@ def bot():
     
     if 'Confirmar' in user_msg:
         res = user_msg.split(' ')[1]
-        
-        msg.body(f"Se confirma la reserva {res}.")
+        res = update_status(id)
+        if ("ERROR" in res):
+            msg.body(f"No se pudo confirmar la reserva.")
+        else:
+            msg.body(f"Se confirma la reserva {id}.")
         #return "1"
     elif 'Rechazar' in user_msg:
-        res = user_msg.split(' ')[1]
-        res = eval(delete_reservation(res))["status"]
-        msg.body(f"Reserva {res} rechazada.")
+        id = user_msg.split(' ')[1]
+        res = delete_reservation(id)
+        if ("ERROR" in res):
+            msg.body(f"No se pudo cancelar la reserva.")
+        else:
+            msg.body(f"Reserva {id} rechazada.")
         #return "0"
     else:
         msg.body("No reconozco ese mensaje. Intente nuevamente.")
