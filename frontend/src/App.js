@@ -7,6 +7,7 @@ import Signin from './routes/sign-in/Signin';
 import Restaurant from './routes/restaurant/Restaurant';
 import Nav from './components/nav/Nav';
 import Footer from './components/footer/Footer'
+import Location from './routes/location/Location';
 
 import { BrowserRouter, Route, Routes} from "react-router-dom";
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/sign-in' element={<Signin />} />
         <Route path='/restaurant/:id' element={<Restaurant />} />
+        <Route path='restaurants/location/:location' element={<Location />} />
       </Routes>
     </BrowserRouter>
   );

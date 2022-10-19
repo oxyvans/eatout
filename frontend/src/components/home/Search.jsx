@@ -1,5 +1,5 @@
 import{ React, useState } from 'react'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
 import "./home.css"
 
 const Search = () => {
@@ -20,8 +20,15 @@ const Search = () => {
 }
 
   const enviarDatos = (event) => {
-    event.preventDefault()
-    navigate('/all');
+    event.preventDefault();
+    if(data.restaurant == '' &&  data.location != '')
+        navigate(`restaurants/location/${data.location}`);
+    else
+      if(data.restaurant != '' &&  data.location == '')
+        {
+          navigate(`/restaurant/1`);
+        }
+       
   }
 
   return (
@@ -29,14 +36,14 @@ const Search = () => {
       <div className='home__search'>
         <div className="centered">
           <div className="group">
-              <input className='input-search' id="name" name='restaurant'  onChange={handleInputChange} type="text" required="required"></input>
+              <input className='input-search' id="name" name='restaurant'  onChange={handleInputChange} type="text" ></input>
               <label for="name">Restaurant</label>
               <div className="bar"></div>
           </div>
         </div>
         <div className="centered">
           <div className="group">
-            <input className='input-search' id="name" name='location' onChange={handleInputChange} type="text" required="required"></input>
+            <input className='input-search' id="name" name='location' onChange={handleInputChange} type="text" ></input>
             <label for="name">Location</label>
             <div className="bar"></div>
           </div>

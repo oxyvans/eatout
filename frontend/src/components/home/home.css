@@ -72,7 +72,7 @@ label {
 .input-search:valid ~ label {
     top: 0;
     font: 700 22px;
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--title-color);
 }
 .input-search:focus {
     outline: none;
