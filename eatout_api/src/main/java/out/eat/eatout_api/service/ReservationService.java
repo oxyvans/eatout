@@ -21,7 +21,7 @@ public class ReservationService {
     public Response add(Reservation val) {
         try {
             Reservation res = repo.save(val);
-            return new Response(Status.OK, "Reservacion agregada" ,res);
+            return new Response(Status.OK, res.getId().toString() ,res);
         } catch (Exception e) {
             return new Response(Status.ERROR, e.getMessage());
         }
