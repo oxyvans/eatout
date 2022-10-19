@@ -1,5 +1,7 @@
 package out.eat.eatout_api.model.entitys;
 
+import out.eat.eatout_api.model.ReservationStatus;
+
 import javax.persistence.*;
 
 @Entity
@@ -20,9 +22,11 @@ public class Reservation {
 
     Integer guests;
 
+    ReservationStatus status;
+
     public Reservation() { super(); }
 
-    public Reservation(Long id, Long idUser, Long idRestaurant, String date, String time, Integer guests) {
+    public Reservation(Long id, Long idUser, Long idRestaurant, String date, String time, Integer guests, ReservationStatus status) {
         super();
         this.id = id;
         this.idUser = idUser;
@@ -30,6 +34,15 @@ public class Reservation {
         this.date = date;
         this.time = time;
         this.guests = guests;
+        this.status = status;
+    }
+
+    public ReservationStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(ReservationStatus status) {
+        this.status = status;
     }
 
     public Long getId() {

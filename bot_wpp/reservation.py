@@ -2,6 +2,7 @@ import uuid
 
 class Reservation:
     """reservation class"""
+    
     def __init__(self, idUser, idRestaurant, date, time, guests):
         self.idUser= idUser
         self.idRestaurant = idRestaurant
@@ -18,7 +19,7 @@ class Reservation:
     def idUser(self, x):
         """ setter """
         self.__idUser = x
-        
+ 
     @property
     def idRestaurant(self):
         """ getter """

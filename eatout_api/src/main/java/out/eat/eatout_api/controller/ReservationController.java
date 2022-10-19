@@ -46,6 +46,11 @@ public class ReservationController {
         return service.update(val);
     }
 
+    @PutMapping("/update-status/{val}")
+    public Response updateStatus(@PathVariable Long val) {
+        return service.updateStatus(val);
+    }
+
     @DeleteMapping("/delete/{val}")
     public Response delete(@PathVariable Long val) { return service.delete(val); }
 

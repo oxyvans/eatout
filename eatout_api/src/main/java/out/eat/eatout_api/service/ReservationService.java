@@ -3,6 +3,7 @@ package out.eat.eatout_api.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import out.eat.eatout_api.dao.ReservationRepository;
+import out.eat.eatout_api.model.ReservationStatus;
 import out.eat.eatout_api.model.entitys.Reservation;
 import out.eat.eatout_api.model.Response;
 import out.eat.eatout_api.model.Status;
@@ -44,6 +45,18 @@ public class ReservationService {
         List<Reservation> all = repo.findAll();
         return all.stream().filter(x -> Objects.equals(x.getIdUser(), val)).collect(Collectors.toList());
     }
+    public Response updateStatus(Long val) {
+
+        Optional<Reservation> res =  repo.findById(val);
+        if (res.isPresent()) {
+            Reservation reservation = res.stream().collect(Collectors.toList()).get(0);
+            reservation.setStatus(ReservationStatus.CONFIRMED);
+            return update(reservation);
+        } else {
+            return new Response(Status.ERROR, "Id not valid");
+        }
+    }
+
     public Response update(Reservation val) {
         List<Reservation> all = repo.findAll();
         if (all.size() == 0) {  return new Response(Status.ERROR, "Lista de reservaciones vacía"); }

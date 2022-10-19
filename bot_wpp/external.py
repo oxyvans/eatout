@@ -17,3 +17,4 @@ def confirmation_reservation(reservation = None):
         return (x.text)
     except Exception as e:
         return "Error " + str(e)
+    
