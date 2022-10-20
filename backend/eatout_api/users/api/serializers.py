@@ -1,8 +1,7 @@
-from rest_framework import serializers
-from users.models import User
 from .forms import SignUpForm
 from django import forms
-
+from rest_framework import serializers
+from users.models import User
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:

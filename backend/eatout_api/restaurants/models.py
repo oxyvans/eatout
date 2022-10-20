@@ -1,9 +1,9 @@
-import email
-from unittest.util import _MAX_LENGTH
+import datetime
 from django.db import models
 from django.forms import CharField, DateField, EmailField, IntegerField
-import datetime
-# Create your models here.
+import email
+from unittest.util import _MAX_LENGTH
+
 class Restaurant(models.Model):
     id = models.BigAutoField(auto_created=True, primary_key=True)
     RestName = models.CharField(max_length=45)
