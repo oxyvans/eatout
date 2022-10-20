@@ -13,12 +13,12 @@ def bot():
     msg = bot_resp.message()
     
     if 'confirmar' in user_msg:
-        res = user_msg.split(' ')[1]
+        id = user_msg.split(' ')[1]
         res = update_status(res)
         if ("ERROR" in res):
             msg.body(f"No se pudo confirmar la reserva.")
         else:
-            msg.body(f"Se confirma la reserva {res}.")
+            msg.body(f"Se confirma la reserva {id}.")
         #return "1"
     elif 'rechazar' in user_msg:
         id = user_msg.split(' ')[1]
