@@ -1,16 +1,18 @@
 import http
-from time import timezone
-from rest_framework import generics, status
-from rest_framework.response import Response
 from .serializers import UserSerializer
-from rest_framework.authtoken.models import Token
-from rest_framework.authtoken.views import ObtainAuthToken
-from django.http import request
-from rest_framework.views import APIView
-from django.contrib.sessions.backends.db import SessionStore
+from datetime import datetime
 from django.contrib.auth import logout, login, authenticate
 from django.contrib.auth.views import LogoutView
-from datetime import datetime
+from django.contrib.sessions.backends.db import SessionStore
+from django.http import request
+from logging import raiseExceptions
+from rest_framework import generics, status
+from rest_framework.authtoken.models import Token
+from rest_framework.authtoken.views import ObtainAuthToken
+from rest_framework.response import Response
+from rest_framework.views import APIView
+from time import timezone
+
 
 
 class UserSignUp(generics.GenericAPIView):
@@ -24,7 +26,6 @@ class UserSignUp(generics.GenericAPIView):
             "token":Token.objects.get(user=user).key,
             "message":"account created successfully"
         })
-
 
 #login
 class CustomAuthToken(ObtainAuthToken):
@@ -40,7 +41,6 @@ class CustomAuthToken(ObtainAuthToken):
 
 class LogoutView(ObtainAuthToken):
     def post(self, request, format=None):
-        #if request.user.is_authenticated:
         serializer=self.serializer_class(data=request.data, context={'request':request})
         serializer.is_valid(raise_exception=True)
         user=serializer.validated_data['user']
