@@ -18,7 +18,7 @@ def bot():
         if ("ERROR" in res):
             msg.body(f"No se pudo confirmar la reserva.")
         else:
-            msg.body(f"HOLASe confirma la reserva {id}.")
+            msg.body(f"Reserva {id} confirmada.")
         #return "1"
     elif 'rechazar' in user_msg:
         id = user_msg.split(' ')[1]
