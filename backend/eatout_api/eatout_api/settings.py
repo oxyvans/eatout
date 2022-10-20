@@ -23,9 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=z-h9k-%##5q@y!l5v90%2*8@7ny1#)i=@k!d5b+70k@cd*ioy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+
+CORS_ORIGINS_ALLOW_ALL = True
 
 CORS_ALLOWED_ORIGINS = [    
 'http://localhost:3000'
@@ -111,8 +113,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': 'localhost',
         'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': 'root',
+        'USER': 'user1',
+        'PASSWORD': 'passuser1',
         'NAME': 'eatout_db',
         'OPTIONS':{
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
