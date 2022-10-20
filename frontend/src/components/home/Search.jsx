@@ -11,8 +11,6 @@ const Search = () => {
   })
 
   const handleInputChange = (event) => {
-    console.log(event.target.name)
-    console.log(event.target.value)
     setData({
         ...data,
         [event.target.name] : event.target.value
@@ -21,14 +19,15 @@ const Search = () => {
 
   const enviarDatos = (event) => {
     event.preventDefault();
-    if(data.restaurant == '' &&  data.location != '')
+    if(data.restaurant === '' &&  data.location !== '')
         navigate(`restaurants/location/${data.location}`);
     else
-      if(data.restaurant != '' &&  data.location == '')
+      if(data.restaurant !== '' &&  data.location === '')
         {
-          navigate(`/restaurant/1`);
+          navigate(`/restaurants/name/${data.restaurant}`);
+        }else{
+          navigate(`/restaurants/name/${data.restaurant}`);
         }
-       
   }
 
   return (
