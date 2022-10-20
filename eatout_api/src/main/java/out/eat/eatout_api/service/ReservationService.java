@@ -66,7 +66,7 @@ public class ReservationService {
 
             try {
                 Reservation res = repo.save(val);
-                if (res.getStatus().equals(ReservationStatus.CONFIRMED)) return new Response(Status.OK, "Reservación " + val.getId() + " confirmada.");
+                if (res.getStatus().equals(ReservationStatus.CONFIRMED)) return new Response(Status.OK, "Reservación confirmada.");
                 else return new Response(Status.OK, "Reservacion actualizada", res);
             } catch (Exception e) {
                 return new Response(Status.ERROR, e.getMessage());
