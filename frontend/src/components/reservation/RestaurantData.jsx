@@ -1,25 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./restaurantData.css"
+import restaurants from "../../routes/all/test"
 
 const RestaurantData = (props) => {
   return (
-      <div className='rest'>
-          <div className='rest_cont'>
-              <img src={props.elem.img}  className="rest_img" alt="" />
-              <h1 className='rest__title'>{props.elem.name}</h1>
-
-              <div className='rest__subtitle'>
-                    {props.elem.location} <a href=""> See Map!</a>
-             </div>
-              <div className='rest_desc'>
-                  {props.elem.des}
-              </div>
-
-              <div className='rest_tel'>
-                  {props.elem.tel}
-              </div>
-          </div>
-      </div>
+  <div>
+    <h1>{props.rest.RestName}</h1>
+    <img src={restaurants[props.id].img}alt="" />
+    location<h3>{props.rest.location}</h3> 
+    cel<h3>{props.rest.telephone}</h3> 
+    desc<h3>{props.rest.descrip}</h3> 
+    rankin<h3>{props.rest.rank}</h3> 
+    tables<h3>{props.rest.available_tables}</h3> 
+  </div>
   )
 }
 
