@@ -17,6 +17,6 @@ def update_status(Id = None):
     try:
         url = f"http://35.247.214.17:8034/reservation/update-status/{Id}"
         x = requests.put(url)
-        return x.text
+        return eval(x.text)["msg"]
     except Exception as e:
         return "Error" + str(e)
