@@ -48,8 +48,8 @@ public class Bot {
     public String sendMessage(Reservation res){
 
         // obtainResData(res) +
-        String msg =  "\n*¿Desea confirmar la reservación? " + res.getId() + "* \n" + obtainMessage(res) +  "\n\n Responde 'Rechazar " + res.getId() + "' para rechazarla." +
-                ".\n Responde 'Confirmar " + res.getId() + "' para confirmarla.";
+        String msg =  "\n*¿Desea confirmar la reservación? ID: " + res.getId() + "* \n" + obtainMessage(res) +  "\n\nResponde 'Rechazar " + res.getId() + "' para rechazarla." +
+                ".\nResponde 'Confirmar " + res.getId() + "' para confirmarla.";
 
         try {
             RestTemplate rest = new RestTemplate();
