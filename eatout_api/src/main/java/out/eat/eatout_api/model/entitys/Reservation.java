@@ -5,7 +5,7 @@ import out.eat.eatout_api.model.ReservationStatus;
 import javax.persistence.*;
 
 @Entity
-@Table(name="Reservation")
+@Table(name="reservations_reservation")
 public class Reservation {
 
     @Id
