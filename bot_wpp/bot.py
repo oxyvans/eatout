@@ -16,7 +16,7 @@ def bot():
         id = user_msg.split(' ')[1]
         res = update_status(id)
         if ("ERROR" in res):
-            msg.body(f"No se pudo confirmar la reserva.")
+            msg.body("No se pudo confirmar la reserva.")
         else:
             msg.body(f"Reserva {id} confirmada.")
         #return "1"
@@ -24,10 +24,24 @@ def bot():
         id = user_msg.split(' ')[1]
         res = delete_reservation(id)
         if ("ERROR" in res):
-            msg.body(f"No se pudo cancelar la reserva.")
+            msg.body("No se pudo cancelar la reserva.")
         else:
             msg.body(f"Reserva {id} rechazada.")
         #return "0"
+    elif 'pendientes' in user_msg:
+        id = user_msg.split(' ')[1]
+        pending = pending_reservations(id)
+        if "ERROR" in pending:
+            msg.body("No tiene reservas pendientes.")
+        else:
+            msg.body(f"Reservas pendientes \n: {pending}")
+    elif 'confirmadas' in user_msg:
+        id = user_msg.split(' ')[1]
+        confirmed = confirmed_reservations(id)
+        if "ERROR" in confirmed:
+            msg.body("No tiene reservas confirmadas.")
+        else:
+            msg.body(f"Reservas confirmadas:\n{confirmed}")
     else:
         msg.body("No reconozco ese mensaje. Intente nuevamente.")
     return Response(str(bot_resp), mimetype="application/xml"), 200
