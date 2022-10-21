@@ -27,7 +27,7 @@ def pending_reservations(val = None):
     try:
         url = f"http://35.247.214.17:8034/reservation/views/restaurant/{val}/awaiting"
         x = requests.get(url)
-        return x.json()["bot"])
+        return x.json()["bot"]
     except Exception as e:
         return "Error" + str(e)
 

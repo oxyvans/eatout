@@ -34,14 +34,14 @@ def bot():
         if "ERROR" in pending:
             msg.body("No tiene reservas pendientes.")
         else:
-            msg.body(f"Reservas pendientes \n: {pending}")
+            msg.body(f"{pending}")
     elif 'confirmadas' in user_msg:
         id = user_msg.split(' ')[1]
         confirmed = confirmed_reservations(id)
         if "ERROR" in confirmed:
             msg.body("No tiene reservas confirmadas.")
         else:
-            msg.body(f"Reservas confirmadas:\n{confirmed}")
+            msg.body(f"{confirmed}")
     else:
         msg.body("No reconozco ese mensaje. Intente nuevamente.")
     return Response(str(bot_resp), mimetype="application/xml"), 200

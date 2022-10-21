@@ -17,6 +17,7 @@ def send():
     """ Prints a Message when / is called """
     
     msg = request.args.get('msg')
+    print(msg)
   #  msg = f"Día {nueva.time}, Hora: {nueva.date}, Cantidad de personas: {nueva.guests}. Responde 'Rechazar {idReserva}' para rechazarla."
     send_message(msg.replace('_', ' '))
     
