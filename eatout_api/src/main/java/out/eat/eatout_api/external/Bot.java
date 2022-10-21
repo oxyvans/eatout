@@ -36,7 +36,7 @@ public class Bot {
             userData = "Nombre: " + user.getName() + ", tel: " + user.getPhone() + ", mail: " + user.getMail();
         }
 */
-        return ("\nDía " + res.getDate() + ", Hora: " + res.getTime()  +"hs, Cantidad de personas: "+ res.getGuests() +".\n Usuario: "+ userData);
+        return ("\nDía " + res.getDate() + ", " + res.getTime()  +"hs, Cantidad de personas: "+ res.getGuests() +"\n"+ userData);
     }
 
     public String obtainResData(Reservation res) {
@@ -48,8 +48,8 @@ public class Bot {
     public String sendMessage(Reservation res){
 
         // obtainResData(res) +
-        String msg =  "\n*¿Desea confirmar la reservación? \n" + res.getId() + "* \n" + obtainMessage(res) +  "\n\n Responde 'Rechazar " + res.getId() + "' para rechazarla." +
-                ".\n Responde 'Confirmar " + res.getId() + "' para confirmarla."; ;
+        String msg =  "\n*¿Desea confirmar la reservación? " + res.getId() + "* \n" + obtainMessage(res) +  "\n\n Responde 'Rechazar " + res.getId() + "' para rechazarla." +
+                ".\n Responde 'Confirmar " + res.getId() + "' para confirmarla.";
 
         try {
             RestTemplate rest = new RestTemplate();
