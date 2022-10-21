@@ -10,6 +10,7 @@ import Location from './routes/location/Location';
 import Name from './routes/name/Name';
 
 import { BrowserRouter, Route, Routes} from "react-router-dom";
+import SearchLocationName from './routes/search/SearchLocationName';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/restaurant/:id' element={<Restaurant />} />
         <Route path='restaurants/location/:location' element={<Location />} />
         <Route path='restaurants/name/:name' element={<Name />} />
+        <Route path='search/:location/:name' element={<SearchLocationName />} />
       </Routes>
     </BrowserRouter>
   );

@@ -26,7 +26,7 @@ const Search = () => {
         {
           navigate(`/restaurants/name/${data.restaurant}`);
         }else{
-          navigate(`/restaurants/name/${data.restaurant}`);
+          navigate(`/search/${data.location}/${data.restaurant}`);
         }
   }
 

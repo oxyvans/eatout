@@ -20,3 +20,7 @@ export const SearchRestaurantsWhitName =  async (name) => {
 export const SearchRestaurantsWhitLocation =  async (location) => {
     return await fetch(API_URL + "location/" + location);
 };
+
+export const SearchRestaurantsWhitNameLocation =  async (name, location) => {
+    return await fetch(API_URL + "search/" + location + "/" + name);
+};
