@@ -105,7 +105,7 @@ public class ReservationService {
             // bot.obtainResData(filteredList.get(0)) +
             String msg = "\n *Confirmaciones reservadas:* \n";
 
-            String msg_ = filteredList.stream().map(x -> bot.obtainMessage(x)).reduce(msg, (x, y) -> (x + "\n" + y));
+            String msg_ = filteredList.stream().map(x -> "*RESERVACION ID: " + x.getId() + "*" + bot.obtainMessage(x)).reduce(msg, (x, y) -> (x + "\n\n" + y));
 
             return new ResponseBot(msg_, filteredList);
         }
@@ -125,7 +125,7 @@ public class ReservationService {
             // bot.obtainResData(filteredList.get(0)) +
             String msg =  "\n *Confirmaciones pendientes:* \n";
 
-            String msg_ = filteredList.stream().map(x -> "*RESERVACION ID: " + x.getId() + "*" + bot.obtainMessage(x)).reduce(msg, (x, y) -> (x + "\n" + y));
+            String msg_ = filteredList.stream().map(x -> "*RESERVACION ID: " + x.getId() + "*" + bot.obtainMessage(x)).reduce(msg, (x, y) -> (x + "\n\n" + y));
 
             return new ResponseBot(msg_, filteredList);
         }
