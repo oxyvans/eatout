@@ -103,4 +103,5 @@ public class Reservation {
     public void setGuests(Integer guests) {
         this.guests = guests;
     }
+
 }

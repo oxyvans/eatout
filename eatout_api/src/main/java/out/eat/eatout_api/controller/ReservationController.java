@@ -1,15 +1,19 @@
 package out.eat.eatout_api.controller;
 
+import ch.qos.logback.core.encoder.EchoEncoder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import out.eat.eatout_api.external.Bot;
 import out.eat.eatout_api.model.ReservationStatus;
+import out.eat.eatout_api.model.ResponseBot;
 import out.eat.eatout_api.model.entitys.Reservation;
 import out.eat.eatout_api.model.Response;
 import out.eat.eatout_api.service.ReservationService;
 
 import java.util.List;
 import java.util.Optional;
+
+import static org.hibernate.tool.schema.SchemaToolingLogging.LOGGER;
 
 @RestController
 @RequestMapping(path="/reservation")
@@ -33,11 +37,16 @@ public class ReservationController {
     @PostMapping("/addNoUser")
     public Response addNoUser(@RequestBody Reservation val, @RequestParam String name, @RequestParam String tel, @RequestParam String mail) {
 
+        LOGGER.info("Add no user");
         val.setStatus(ReservationStatus.AWAITING);
         val.setNoUser("Nombre: " + name + ", tel: " + tel + ", mail: " + mail);
         val.setIdUser(null);
         Response res = service.add(val);
-        res.setMsg(bot.sendMessage(res.getReservation()));
+        try {
+            res.setMsg(bot.sendMessage(res.getReservation()));
+        } catch (Exception e) {
+            res.setMsg(e.getMessage());
+        }
         return res;
     }
 
@@ -79,4 +88,15 @@ public class ReservationController {
     public String reservation(){
         return "Requests admited: https://documenter.getpostman.com/view/23199255/2s83zpK1fw";
     }
+
+    @GetMapping("/views/restaurant/{val}/confirmed")
+    public ResponseBot viewsRestaurantConfirmed(@PathVariable Long val) {
+        return service.viewsRestaurantConfirmed(val);
+    }
+
+    @GetMapping("/views/restaurant/{val}/awaiting")
+    public ResponseBot viewsRestaurantAwaiting(@PathVariable Long val) {
+        return service.viewsRestaurantAwaiting(val);
+    }
+
 }

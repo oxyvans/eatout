@@ -41,12 +41,12 @@ public class User {
         this.name = name;
     }
 
-    public String getLastname() {
+    public String getPhone() {
         return phone;
     }
 
-    public void setLastname(String lastname) {
-        this.phone = lastname;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getMail() {

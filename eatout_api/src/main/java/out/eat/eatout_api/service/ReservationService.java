@@ -3,11 +3,12 @@ package out.eat.eatout_api.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import out.eat.eatout_api.dao.ReservationRepository;
+import out.eat.eatout_api.external.Bot;
 import out.eat.eatout_api.model.ReservationStatus;
+import out.eat.eatout_api.model.ResponseBot;
 import out.eat.eatout_api.model.entitys.Reservation;
 import out.eat.eatout_api.model.Response;
 import out.eat.eatout_api.model.Status;
-
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
@@ -18,6 +19,9 @@ public class ReservationService {
 
     @Autowired
     private ReservationRepository repo;
+
+    @Autowired
+    private Bot bot;
 
     public Response add(Reservation val) {
         try {
@@ -85,6 +89,47 @@ public class ReservationService {
         } catch (Exception e) {
             return new Response(Status.ERROR, e.getMessage());
         }
+    }
+
+    public ResponseBot viewsRestaurantConfirmed(Long val) {
+
+        List<Reservation> all = repo.findAll();
+        if (all.size() == 0) return new ResponseBot("No hay reservaciones.", all);
+        if (!(all.stream().anyMatch(x -> x.getIdRestaurant().equals(val)))) return new ResponseBot("Id no válido", null);
+
+
+        List<Reservation> filteredList = all.stream().filter(x -> Objects.equals(x.getIdRestaurant(), val) && x.getStatus().equals(ReservationStatus.CONFIRMED)).collect(Collectors.toList());
+
+        if (filteredList.size() == 0) return new ResponseBot("No tienes reservaciones confirmadas.", filteredList);
+        else {
+            // bot.obtainResData(filteredList.get(0)) +
+            String msg = "\n *Confirmaciones reservadas:* \n";
+
+            String msg_ = filteredList.stream().map(x -> bot.obtainMessage(x)).reduce(msg, (x, y) -> (x + "\n" + y));
+
+            return new ResponseBot(msg_, filteredList);
+        }
+    }
+
+    public ResponseBot viewsRestaurantAwaiting(Long val) {
+
+        List<Reservation> all = repo.findAll();
+        if (all.size() == 0) return new ResponseBot("No hay reservaciones.", all);
+        if (!(all.stream().anyMatch(x -> x.getIdRestaurant().equals(val)))) return new ResponseBot("Id no válido", null);
+
+
+        List<Reservation> filteredList = all.stream().filter(x -> Objects.equals(x.getIdRestaurant(), val) && x.getStatus().equals(ReservationStatus.AWAITING)).collect(Collectors.toList());
+
+        if (filteredList.size() == 0) return new ResponseBot("No tienes reservaciones pendientes.", filteredList);
+        else {
+            // bot.obtainResData(filteredList.get(0)) +
+            String msg =  "\n *Confirmaciones pendientes:* \n";
+
+            String msg_ = filteredList.stream().map(x -> bot.obtainMessage(x)).reduce(msg, (x, y) -> (x + "\n" + y));
+
+            return new ResponseBot(msg_, filteredList);
+        }
+
     }
 
 }
