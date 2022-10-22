@@ -16,6 +16,7 @@ import java.util.Optional;
 import static org.hibernate.tool.schema.SchemaToolingLogging.LOGGER;
 
 @RestController
+@CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST})
 @RequestMapping(path="/reservation")
 public class ReservationController {
 
