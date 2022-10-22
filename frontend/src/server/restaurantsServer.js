@@ -24,3 +24,20 @@ export const SearchRestaurantsWhitLocation =  async (location) => {
 export const SearchRestaurantsWhitNameLocation =  async (name, location) => {
     return await fetch(API_URL + "search/" + location + "/" + name);
 };
+
+const API_URL_2= 'http://35.247.214.17:8034/reservation/addNoUser'
+
+export const Reservation =  async (param , body) => {
+    var url = new URL(API_URL_2)
+    for (let k in param) {url.searchParams.append(k, param[k]); }
+    console.log(url);
+   return await fetch(url, {
+    mode: 'no-cors',
+    headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+    method: "POST",
+    body: JSON.stringify(body)
+   });
+};
