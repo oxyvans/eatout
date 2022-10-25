@@ -1,6 +1,5 @@
 .cont_conteiner {
     justify-content: center;
-    width: 60%;
 }
 .cont_form{
     margin: 2rem;
@@ -47,6 +46,13 @@
     top: 0;
     left: 0;
     padding: 2rem;
+}
+
+.button-r{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
 @media screen and (max-width: 500px) {

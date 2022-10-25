@@ -1,5 +1,5 @@
 .res__container {
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 70% 50%;
     column-gap: 3rem;
     justify-content: center;
     padding: 6rem 1rem;
