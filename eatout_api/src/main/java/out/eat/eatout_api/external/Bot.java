@@ -29,11 +29,12 @@ public class Bot {
        LOGGER.info("RES: " + res.toString());
 
         String userData = "";
-        userData = res.getNoUser();
-        if (!userData.equals(null)) {
+
+        if (res.getNoUser() == null) {
             User user = service.obtainUser(res.getIdUser());
-            userData = "Nombre: " + user.getUsername() + ", Tel: " + user.getTelephone() + ", Email: " + user.getEmail();
-        }
+            if (user == null) userData = "Usuario no encontrado, id: " + res.getIdUser();
+            else userData = "Nombre: " + user.getUsername() + ", Tel: " + user.getTelephone() + ", Email: " + user.getEmail();
+        } else userData = res.getNoUser();
 
         return ("\nDía " + res.getDate() + ", " + res.getTime()  +"hs, Cantidad de personas: "+ res.getGuests() +"\n"+ userData);
     }
