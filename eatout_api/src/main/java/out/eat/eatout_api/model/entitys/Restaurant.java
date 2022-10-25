@@ -12,17 +12,13 @@ public class Restaurant {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
 
-    @JsonProperty("RestName")
-    String name;
-
-    @JsonProperty("location")
+    String RestName;
+    
     String location;
 
-    @JsonProperty("telephone")
-    String number;
-
-    @JsonProperty("descrip")
-    String description;
+    String telephone;
+    
+    String descrip;
 
     public Restaurant() {
         super();
@@ -31,10 +27,10 @@ public class Restaurant {
     public Restaurant(Long id, String name, String location, String number, String description) {
         super();
         this.id = id;
-        this.name = name;
+        this.RestName = name;
         this.location = location;
-        this.number = number;
-        this.description = description;
+        this.telephone = number;
+        this.descrip = description;
     }
 
     public Long getId() {
@@ -46,11 +42,11 @@ public class Restaurant {
     }
 
     public String getName() {
-        return name;
+        return RestName;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.RestName = name;
     }
 
     public String getLocation() {
@@ -62,18 +58,18 @@ public class Restaurant {
     }
 
     public String getNumber() {
-        return number;
+        return telephone;
     }
 
     public void setNumber(String number) {
-        this.number = number;
+        this.telephone = number;
     }
 
     public String getDescription() {
-        return description;
+        return descrip;
     }
 
     public void setDescription(String description) {
-        this.description = description;
+        this.descrip = description;
     }
 }
