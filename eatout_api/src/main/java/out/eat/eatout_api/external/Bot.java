@@ -10,6 +10,8 @@ import out.eat.eatout_api.model.entitys.User;
 import out.eat.eatout_api.service.ReservationService;
 import out.eat.eatout_api.service.UserRestaurantService;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 import static org.hibernate.tool.schema.SchemaToolingLogging.LOGGER;
@@ -36,7 +38,20 @@ public class Bot {
             else userData = "Nombre: " + user.getUsername() + ", Tel: " + user.getTelephone() + ", Email: " + user.getEmail();
         } else userData = res.getNoUser();
 
-        return ("\nDía " + res.getDate() + ", " + res.getTime()  +"hs, Cantidad de personas: "+ res.getGuests() +"\n"+ userData);
+        String date_ = "";
+        try {
+            LocalDate date = LocalDate.parse(res.getDate());
+            LocalDate hoy = LocalDate.now();
+            if (date.isEqual(hoy)) date_ = "Hoy a las ";
+            else if (date.isEqual(hoy.plusDays(1))) date_ = "Mañana a las ";
+            else {
+                DateTimeFormatter formatter = DateTimeFormatter.ofPattern("El dia dd de MM a las");
+                date_ = formatter.format(date);
+            }
+
+        } catch (Exception e) {date_ = "\nDía " + res.getDate();}
+
+        return (date_ + ", " + res.getTime()  +"hs, Cantidad de personas: "+ res.getGuests() +"\n"+ userData);
     }
 
     public String obtainResData(Reservation res) {

@@ -107,7 +107,7 @@ public class ReservationService {
 
             String msg_ = filteredList.stream().map(x -> "*RESERVACION ID: " + x.getId() + "*" + bot.obtainMessage(x)).reduce(msg, (x, y) -> (x + "\n\n" + y));
 
-            msg_ += "\n\nResponde 'Rechazar {id}' para rechazarla.";
+            msg_ += "\n\nResponde *'Rechazar {id}'* para rechazarla.";
             return new ResponseBot(msg_, filteredList);
         }
     }
@@ -128,8 +128,8 @@ public class ReservationService {
 
             String msg_ = filteredList.stream().map(x -> "*RESERVACION ID: " + x.getId() + "*" + bot.obtainMessage(x)).reduce(msg, (x, y) -> (x + "\n\n" + y));
 
-            msg_ += "\n\nResponde 'Rechazar {id}' para rechazarla." +
-                    ".\nResponde 'Confirmar {id}' para confirmarla.";
+            msg_ += "\n\nResponde *'Rechazar {id}'* para rechazarla." +
+                    ".\nResponde *'Confirmar {id}'* para confirmarla.";
 
             return new ResponseBot(msg_, filteredList);
         }
