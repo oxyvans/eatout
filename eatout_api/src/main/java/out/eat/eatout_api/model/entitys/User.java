@@ -9,9 +9,9 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
-    String name;
-    String phone;
-    String mail;
+    String username;
+    String telephone;
+    String email;
 
     public User() {
         super();
@@ -20,9 +20,9 @@ public class User {
     public User(Long id, String name, String lastname, String mail) {
         super();
         this.id = id;
-        this.name = name;
-        this.phone = lastname;
-        this.mail = mail;
+        this.username = name;
+        this.telephone = lastname;
+        this.email = mail;
     }
 
     public Long getId() {
@@ -33,27 +33,27 @@ public class User {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getTelephone() {
+        return telephone;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
     }
 
-    public String getMail() {
-        return mail;
+    public String getEmail() {
+        return email;
     }
 
-    public void setMail(String mail) {
-        this.mail = mail;
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

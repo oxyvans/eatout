@@ -30,19 +30,18 @@ public class Bot {
 
         String userData = "";
         userData = res.getNoUser();
-        /*if (res.getIdUser().equals(26262626l)) userData = res.getNoUser();
-        else {
+        if (!userData.equals(null)) {
             User user = service.obtainUser(res.getIdUser());
-            userData = "Nombre: " + user.getName() + ", tel: " + user.getPhone() + ", mail: " + user.getMail();
+            userData = "Nombre: " + user.getUsername() + ", Tel: " + user.getTelephone() + ", Email: " + user.getEmail();
         }
-*/
+
         return ("\nDía " + res.getDate() + ", " + res.getTime()  +"hs, Cantidad de personas: "+ res.getGuests() +"\n"+ userData);
     }
 
     public String obtainResData(Reservation res) {
         Restaurant restaurant = service.obtainRestaurant(res.getIdRestaurant());
         if (restaurant == null) return "Restaurant id no encontrado"; // id no valido
-        return  "Restaurant " + restaurant.getDescrip() + ". ID: " + restaurant.getId();
+        return  "Restaurant " + restaurant.getLocation() + ". ID: " + restaurant.getId();
     }
 
     public String sendMessage(Reservation res){
