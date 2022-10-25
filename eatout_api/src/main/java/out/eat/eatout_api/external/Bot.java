@@ -42,7 +42,7 @@ public class Bot {
     public String obtainResData(Reservation res) {
         Restaurant restaurant = service.obtainRestaurant(res.getIdRestaurant());
         if (restaurant == null) return "Restaurant id no encontrado"; // id no valido
-        return  "Restaurant " + restaurant.getName() + ". ID: " + restaurant.getId();
+        return  "Restaurant " + restaurant.getRestName() + ". ID: " + restaurant.getId();
     }
 
     public String sendMessage(Reservation res){

@@ -12,29 +12,25 @@ public class Restaurant {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
 
-    @JsonProperty("RestName")
-    String name;
-
-    @JsonProperty("location")
+    String RestName;
+    
     String location;
 
-    @JsonProperty("telephone")
-    String number;
+    String telephone;
 
-    @JsonProperty("descrip")
-    String description;
+    String descrip;
 
     public Restaurant() {
         super();
     }
 
-    public Restaurant(Long id, String name, String location, String number, String description) {
+    public Restaurant(Long id, String restName, String location, String telephone, String description) {
         super();
         this.id = id;
-        this.name = name;
+        this.RestName = restName;
         this.location = location;
-        this.number = number;
-        this.description = description;
+        this.telephone = telephone;
+        this.descrip = description;
     }
 
     public Long getId() {
@@ -45,12 +41,12 @@ public class Restaurant {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getRestName() {
+        return RestName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setRestName(String restName) {
+        RestName = restName;
     }
 
     public String getLocation() {
@@ -61,19 +57,19 @@ public class Restaurant {
         this.location = location;
     }
 
-    public String getNumber() {
-        return number;
+    public String getTelephone() {
+        return telephone;
     }
 
-    public void setNumber(String number) {
-        this.number = number;
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
     }
 
-    public String getDescription() {
-        return description;
+    public String getDescrip() {
+        return descrip;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setDescrip(String description) {
+        this.descrip = description;
     }
 }
