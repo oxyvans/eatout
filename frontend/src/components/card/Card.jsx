@@ -12,7 +12,7 @@ const Card = (props) => {
     <div className='card' key={id}>
     <img  className='img img_card' src={img} alt="" />
     <div className='cont_des'>
-    <h1 className='title'>{props.elem.RestName}</h1>
+    <h1 className='title'>{props.elem.restName}</h1>
         <div>
             <i class="uil uil-comment-alt-info icon-card"></i>
             <spam className="info-card">{props.elem.descrip}</spam>

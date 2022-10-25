@@ -5,7 +5,7 @@ import restaurants from "../../routes/all/test"
 const RestaurantData = (props) => {
   return (
   <div>
-    <h1>{props.rest.RestName}</h1>
+    <h1>{props.rest.restName}</h1>
     <img src={restaurants[props.id].img}alt="" />
     location<h3>{props.rest.location}</h3> 
     cel<h3>{props.rest.telephone}</h3> 
