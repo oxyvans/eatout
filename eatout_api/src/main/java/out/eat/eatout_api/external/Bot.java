@@ -42,19 +42,19 @@ public class Bot {
         try {
             LocalDate date = LocalDate.parse(res.getDate());
             LocalDate hoy = LocalDate.now();
-            if (date.isEqual(hoy)) date_ = "Hoy a las ";
-            else if (date.isEqual(hoy.plusDays(1))) date_ = "Mañana a las ";
+            if (date.isEqual(hoy)) date_ = "\nHoy a las ";
+            else if (date.isEqual(hoy.plusDays(1))) date_ = "\nMañana a las ";
             else {
-                DateTimeFormatter formatter = DateTimeFormatter.ofPattern("El dia dd de MM a las");
+                DateTimeFormatter formatter = DateTimeFormatter.ofPattern("\nEl dia dd de MM a las");
                 date_ = formatter.format(date);
             }
 
         } catch (Exception e) {
-            LOGGER.info("HOY: " + LocalDate.now() + ", DEBUG FECHA " + e.getMessage());
-            date_ = "\nDía " + res.getDate();
+            LOGGER.info("HOY: " + LocalDate.now() + " FECHA:" +  res.getDate() + ", ERROR MSG: " + e.getMessage());
+            date_ = "\nDía " + res.getDate() + " a las ";
         }
 
-        return (date_ + ", " + res.getTime()  +"hs, Cantidad de personas: "+ res.getGuests() +"\n"+ userData);
+        return (date_ + res.getTime()  +"hs, Cantidad de personas: "+ res.getGuests() +"\n"+ userData);
     }
 
     public String obtainResData(Reservation res) {
