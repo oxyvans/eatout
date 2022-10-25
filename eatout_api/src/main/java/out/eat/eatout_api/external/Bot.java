@@ -50,7 +50,7 @@ public class Bot {
             }
 
         } catch (Exception e) {
-            LOGGER.info(e.getMessage());
+            LOGGER.info("DEBUG FECHA" + e.getMessage());
             date_ = "\nDía " + res.getDate();
         }
 
