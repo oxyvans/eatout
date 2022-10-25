@@ -103,10 +103,11 @@ public class ReservationService {
         if (filteredList.size() == 0) return new ResponseBot("No tienes reservaciones confirmadas.", filteredList);
         else {
             // bot.obtainResData(filteredList.get(0)) +
-            String msg = "\n *Confirmaciones reservadas:* \n";
+            String msg = "\n *Reservas confirmadas:* \n";
 
             String msg_ = filteredList.stream().map(x -> "*RESERVACION ID: " + x.getId() + "*" + bot.obtainMessage(x)).reduce(msg, (x, y) -> (x + "\n\n" + y));
 
+            msg_ += "\n\nResponde 'Rechazar {id}' para rechazarla.";
             return new ResponseBot(msg_, filteredList);
         }
     }
@@ -126,6 +127,9 @@ public class ReservationService {
             String msg =  "\n *Confirmaciones pendientes:* \n";
 
             String msg_ = filteredList.stream().map(x -> "*RESERVACION ID: " + x.getId() + "*" + bot.obtainMessage(x)).reduce(msg, (x, y) -> (x + "\n\n" + y));
+
+            msg_ += "\n\nResponde 'Rechazar {id}' para rechazarla." +
+                    ".\nResponde 'Confirmar {id}' para confirmarla.";
 
             return new ResponseBot(msg_, filteredList);
         }
