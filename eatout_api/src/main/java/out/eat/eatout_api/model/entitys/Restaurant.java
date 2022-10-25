@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import javax.persistence.*;
 
 @Entity
-@Table(name="restaurant_restaurants")
+@Table(name="restaurants_restaurant")
 public class Restaurant {
 
     @Id
@@ -17,19 +17,19 @@ public class Restaurant {
     String location;
 
     String telephone;
-    
+
     String descrip;
 
     public Restaurant() {
         super();
     }
 
-    public Restaurant(Long id, String name, String location, String number, String description) {
+    public Restaurant(Long id, String restName, String location, String telephone, String description) {
         super();
         this.id = id;
-        this.RestName = name;
+        this.RestName = restName;
         this.location = location;
-        this.telephone = number;
+        this.telephone = telephone;
         this.descrip = description;
     }
 
@@ -41,12 +41,12 @@ public class Restaurant {
         this.id = id;
     }
 
-    public String getName() {
+    public String getRestName() {
         return RestName;
     }
 
-    public void setName(String name) {
-        this.RestName = name;
+    public void setRestName(String restName) {
+        RestName = restName;
     }
 
     public String getLocation() {
@@ -57,19 +57,19 @@ public class Restaurant {
         this.location = location;
     }
 
-    public String getNumber() {
+    public String getTelephone() {
         return telephone;
     }
 
-    public void setNumber(String number) {
-        this.telephone = number;
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
     }
 
-    public String getDescription() {
+    public String getDescrip() {
         return descrip;
     }
 
-    public void setDescription(String description) {
+    public void setDescrip(String description) {
         this.descrip = description;
     }
 }
