@@ -6,7 +6,7 @@ from unittest.util import _MAX_LENGTH
 
 class Restaurant(models.Model):
     id = models.BigAutoField(auto_created=True, primary_key=True)
-    RestName = models.CharField(max_length=45)
+    restName = models.CharField(max_length=45)
     location = models.CharField(max_length=45)
     telephone = models.CharField(max_length=20)
     descrip = models.CharField(max_length=200)

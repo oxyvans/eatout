@@ -113,8 +113,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': 'localhost',
         'PORT': '3306',
-        'USER': 'user1',
-        'PASSWORD': 'passuser1',
+        'USER': 'root',
+        'PASSWORD': 'root',
         'NAME': 'eatout_db',
         'OPTIONS':{
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"

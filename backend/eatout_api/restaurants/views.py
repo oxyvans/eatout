@@ -34,7 +34,7 @@ class RestaurantView(View):
 
     def post(self, request):
         jd = json.loads(request.body)
-        Restaurant.objects.create(RestName=jd['RestName'], location=jd['location'], telephone=jd['telephone'], descrip=jd['descrip'])
+        Restaurant.objects.create(restName=jd['restName'], location=jd['location'], telephone=jd['telephone'], descrip=jd['descrip'])
         data = {'message': "Success"}
         return JsonResponse(data)
 
@@ -43,7 +43,7 @@ class RestaurantView(View):
         rests = list(Restaurant.objects.filter(id=id).values())
         if len(rests) > 0:
             rest= Restaurant.objects.get(id=id)
-            rest.RestName = jd['RestName']
+            rest.RestName = jd['restName']
             rest.location = jd['location']
             rest.telephone = jd['telephone']
             rest.descrip = jd['descrip']
@@ -85,7 +85,7 @@ class RestaurantSearch(View):
         return super().dispatch(request, *args, **kwargs)
     
     def get(self, request, name):
-        rests = list(Restaurant.objects.filter(RestName = name).values())
+        rests = list(Restaurant.objects.filter(restName = name).values())
         if len(rests) > 0:
             data = {'message': "Success", 'Search': rests}
         else:
@@ -111,7 +111,7 @@ class RestaurantSearchLocName(View):
         return super().dispatch(request, *args, **kwargs)
 
     def get(self, request, location, name):
-        rests = list(Restaurant.objects.filter(location=location, RestName=name).values())
+        rests = list(Restaurant.objects.filter(location=location, restName=name).values())
         if len(rests) > 0:
             data = {'message': "Success", 'Search': rests}
         else:
