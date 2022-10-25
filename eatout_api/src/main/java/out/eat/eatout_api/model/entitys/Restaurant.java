@@ -3,7 +3,7 @@ package out.eat.eatout_api.model.entitys;
 import javax.persistence.*;
 
 @Entity
-@Table(name="restaurants_restaurant")
+@Table(name="restaurant_restaurants")
 public class Restaurant {
 
     @Id
