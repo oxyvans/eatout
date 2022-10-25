@@ -1,5 +1,7 @@
 package out.eat.eatout_api.model.entitys;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import javax.persistence.*;
 
 @Entity
@@ -10,12 +12,16 @@ public class Restaurant {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
 
+    @JsonProperty("RestName")
     String name;
 
+    @JsonProperty("location")
     String location;
 
+    @JsonProperty("telephone")
     String number;
 
+    @JsonProperty("descrip")
     String description;
 
     public Restaurant() {
