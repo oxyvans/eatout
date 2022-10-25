@@ -49,7 +49,7 @@ public class Bot {
                 date_ = formatter.format(date);
             }
 
-        } catch (Exception e) {date_ = "\nDía " + res.getDate();}
+        } catch (Exception e) {date_ = "\nDía A" + res.getDate();}
 
         return (date_ + ", " + res.getTime()  +"hs, Cantidad de personas: "+ res.getGuests() +"\n"+ userData);
     }
