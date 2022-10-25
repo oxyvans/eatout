@@ -41,14 +41,14 @@ public class Bot {
 
     public String obtainResData(Reservation res) {
         Restaurant restaurant = service.obtainRestaurant(res.getIdRestaurant());
-        if (restaurant == null) return "Error, restaurant no válido";
+        if (restaurant == null) return "Restaurant id no encontrado"; // id no valido
         return  "Restaurant " + restaurant.getName() + ". ID: " + restaurant.getId();
     }
 
     public String sendMessage(Reservation res){
 
-        // obtainResData(res) +
-        String msg =  "\n*¿Desea confirmar la reservación? ID: " + res.getId() + "* \n" + obtainMessage(res) +  "\n\nResponde 'Rechazar " + res.getId() + "' para rechazarla." +
+
+        String msg = obtainResData(res) + "\n*¿Desea confirmar la reservación? ID: " + res.getId() + "* \n" + obtainMessage(res) +  "\n\nResponde 'Rechazar " + res.getId() + "' para rechazarla." +
                 ".\nResponde 'Confirmar " + res.getId() + "' para confirmarla.";
 
         try {
