@@ -21,7 +21,7 @@ public class UserRestaurantService {
     public Restaurant obtainRestaurant(Long val){
         Optional<Restaurant> res = repoRestaurant.findById(val);
         if (res.isEmpty()) return null;
-        else return res.get();
+        else return res.;
     }
 
     public User obtainUser(Long val){
