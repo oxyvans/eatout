@@ -12,6 +12,7 @@ import out.eat.eatout_api.service.UserRestaurantService;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 import java.util.List;
 
 import static org.hibernate.tool.schema.SchemaToolingLogging.LOGGER;
@@ -42,10 +43,10 @@ public class Bot {
         try {
             LocalDate date = LocalDate.parse(res.getDate());
             LocalDate hoy = LocalDate.now();
-            if (date.isEqual(hoy)) date_ = "\nHoy a las ";
-            else if (date.isEqual(hoy.plusDays(1))) date_ = "\nMañana a las ";
+            if (date.isEqual(hoy)) date_ = "\nHoy " + date.getDayOfMonth() + " a las ";
+            else if (date.isEqual(hoy.plusDays(1))) date_ = "\nMañana " + date.getDayOfMonth() + " a las ";
             else {
-                DateTimeFormatter formatter = DateTimeFormatter.ofPattern("\nEl dia dd de MM a las");
+                DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT);
                 date_ = formatter.format(date);
             }
 
