@@ -39,7 +39,7 @@ const enviarDatos = (event) => {
   return (
 
     <>
-    <div className="cont_conteiner">
+    <div className="conteiner">
     <h2 className='section__title'>Reserve now</h2>
       <span className='section__subtitle'>When the restaurant confirms your reservation, we will send you an email</span>
         <form className='cont_form' action="" onSubmit={enviarDatos}>
@@ -47,36 +47,42 @@ const enviarDatos = (event) => {
                 <label className='form-tag'> Name</label>
                 <input type="text"  name='name' onChange={handleInputChangeP} 
                     className='form-input'  
-                    placeholder='Insert your Name'/>
+                    placeholder='Insert your Name'
+                    required/>
             </div>
 
             <div className='form-div'>
                 <label className='form-tag'>Email</label>
                 <input type="email" name='mail' onChange={handleInputChangeP}
                     className='form-input'  
-                    placeholder='Insert your Email'/>
+                    placeholder='Insert your Email'
+                    required/>
             </div>
             <div className='form-div'>
                 <label className='form-tag'>Telephone</label>
                 <input type="text" name='tel' onChange={handleInputChangeP}
                     className='form-input'  
-                    placeholder='Insert your Telephone'/>
+                    placeholder='Insert your Telephone'
+                    required/>
             </div>
             <div className='form-div'>
                 <label className='form-tag'>Day</label>
                 <input type="date" name='date' onChange={handleInputChangeP}
-                    className='form-input'/>
+                    className='form-input'
+                    required/>
             </div>
             <div className='form-div'>
                 <label className='form-tag'>Time</label>
                 <input  type="time" name='time' onChange={handleInputChangeP}
-                    className='form-input'/>
+                    className='form-input'
+                    required/>
             </div>
             <div className='form-div'>
                 <label className='form-tag'>Guests</label>
                 <input type="number" name='guests' onChange={handleInputChangeP}
                     className='form-input'  
-                    placeholder='Insert Number of guests'/>
+                    placeholder='Insert Number of guests'
+                    required/>
             </div>
             <div className="button-l">  
             <button className='button button--flex'>

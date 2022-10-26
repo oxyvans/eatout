@@ -40,3 +40,9 @@ export const Reservation =  async (param , body) => {
     body: JSON.stringify(body)
    });
 };
+
+const API_URL_3 = "http://35.247.214.17:8034/reservation/views/";
+
+export const ReservationWhitId =  async (id) => {
+    return await fetch(API_URL_3 + id);
+};
