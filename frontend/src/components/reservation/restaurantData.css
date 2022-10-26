@@ -1,0 +1,11 @@
+.img_rest {
+    border-radius: 0.75rem;
+}
+
+.cont_descrip-items {
+    padding: 1rem 1rem 1rem 0rem;
+}
+
+.cont_descrip-items > i {
+    padding-right: .5rem;
+}

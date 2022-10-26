@@ -28,8 +28,7 @@ const Card = (props) => {
     </div>
     <div className='button_cont'>
         <div className='score'>
-            <span className='score-num'>{props.elem.rank}</span>
-            <i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star"></i><i class="uil uil-star-half-alt"></i>
+            <span className='score-num'>Ranking {props.elem.rank}/10</span>
         </div>
     <Link to={`/restaurant/${props.elem.id}`}>
         <div className='button_card button_small'>

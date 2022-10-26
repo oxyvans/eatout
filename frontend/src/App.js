@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './components/home/Home';
 import All from './routes/all/All';
-import Map from './routes/map/Map';
+import Tracing  from './routes/tracing/Tracing';
 import Login from './routes/login/Login';
 import Signup from './routes/sign-up/Signup';
 import Restaurant from './routes/restaurant/Restaurant';
@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route path='/' exactly element={<Home />} />
         <Route path='/all' element={<All />} />
-        <Route path='/map' element={<Map />} />
+        <Route path='/tracing' element={<Tracing  />} />
         <Route path='/login' element={<Login />} />
         <Route path='/sign-up' element={<Signup />} />
         <Route path='/restaurant/:id' element={<Restaurant />} />

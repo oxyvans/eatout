@@ -4,14 +4,24 @@ import restaurants from "../../routes/all/test"
 
 const RestaurantData = (props) => {
   return (
-  <div>
-    <h1>{props.rest.restName}</h1>
-    <img src={restaurants[props.id].img}alt="" />
-    location<h3>{props.rest.location}</h3> 
-    cel<h3>{props.rest.telephone}</h3> 
-    desc<h3>{props.rest.descrip}</h3> 
-    rankin<h3>{props.rest.rank}</h3> 
-    tables<h3>{props.rest.available_tables}</h3> 
+  <div className='continer'>
+     <h2 className='section__title'>{props.rest.restName}</h2>
+      <span className='section__subtitle'>Ranking {props.rest.rank}/10 <i class="uil uil-trophy"></i></span>
+      <img className='img img_rest' src={restaurants[props.id].img} alt="" />
+      <div className='cont_desc'>
+        <div className='cont_descrip-items'>
+          <h3>Description</h3>
+          {props.rest.descrip}
+        </div>
+        <div className='cont_descrip-items' >
+          <i class="uil uil-location-pin-alt icon-card"></i>
+          {props.rest.location}
+        </div>
+        <div className='cont_descrip-items'>
+          <i class="uil uil-phone icon-card"></i>
+          {props.rest.telephone}
+        </div>
+      </div>
   </div>
   )
 }

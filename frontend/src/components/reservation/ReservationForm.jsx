@@ -39,7 +39,7 @@ const enviarDatos = (event) => {
   return (
 
     <>
-    <div className="cont_conteiner container">
+    <div className="cont_conteiner">
     <h2 className='section__title'>Reserve now</h2>
       <span className='section__subtitle'>When the restaurant confirms your reservation, we will send you an email</span>
         <form className='cont_form' action="" onSubmit={enviarDatos}>
