@@ -32,7 +32,6 @@ export const Reservation =  async (param , body) => {
     for (let k in param) {url.searchParams.append(k, param[k]); }
     console.log(url);
    return await fetch(url, {
-    mode: 'no-cors',
     headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
