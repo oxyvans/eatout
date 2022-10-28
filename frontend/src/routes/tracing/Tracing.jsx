@@ -1,7 +1,7 @@
 import React, {useState , useEffect} from 'react';
 import * as Server from "../../server/restaurantsServer";
 
-const Tracing = () => {
+const Tracking  = () => {
   const [data, setData] = useState({
     id: ''
   })
@@ -11,7 +11,10 @@ const Tracing = () => {
     try{
         const res =  await Server.ReservationWhitId(id);
         const r = await res.json();
-        setRest(r);
+        if(r !== null)
+          setRest(r);
+        else
+          setRest({"status": "ID does not exist"});
         console.log(r);
     }catch (error){
         console.log(error);
@@ -54,4 +57,4 @@ const Tracing = () => {
   )
 }
 
-export default Tracing 
+export default Tracking 

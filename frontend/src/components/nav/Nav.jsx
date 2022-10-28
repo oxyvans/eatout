@@ -25,8 +25,8 @@ const Nav = () => {
                     </li>
 
                     <li className="nav__item">
-                        <NavLink to="/tracing" className="nav__link" onClick={closeMenu}>
-                        <i class="uil uil-map-marker nav__icon"></i>Tracing
+                        <NavLink to="/tracking" className="nav__link" onClick={closeMenu}>
+                        <i class="uil uil-map-marker nav__icon"></i>Tracking
                         </NavLink>
                     </li>
                 </ul>
