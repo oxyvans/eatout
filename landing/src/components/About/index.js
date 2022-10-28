@@ -33,7 +33,7 @@ const About = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, d
                         </LilIcon>
                         <SubtitleTitle>Quality</SubtitleTitle>
                     </SubWrap>
-                    <Subtitle darkText={darkText}>All places available on our site are certified by ourselfs, and fully integrated with our APIs to make sure everithing runs smooth.</Subtitle>
+                    <Subtitle darkText={darkText}>All places available on our site are certified by ourselves, and fully integrated with our APIs to make sure everything runs smooth.</Subtitle>
                 </Column1>
                 <Column2>
                     <SubWrap>
@@ -55,7 +55,7 @@ const About = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, d
                         </LilIcon>
                         <SubtitleTitle>Easy Communication</SubtitleTitle>
                     </SubWrap>
-                    <Subtitle darkText={darkText}>Dont worry about forgetting the date of your reservation, we take care of everithing, even making sure you are there at the right time.</Subtitle>
+                    <Subtitle darkText={darkText}>Dont worry about forgetting the date of your reservation, we take care of everything, even making sure you are there at the right time.</Subtitle>
                 </Column3>
             </InfoRow2>
         </InfoWrapper>
