@@ -1,4 +1,4 @@
-const API_URL= 'http://35.247.214.17:8000/api/restaurants/'
+const API_URL= 'http://35.199.124.63:8000/api/restaurants/'
 
 export const listRestaurants =  async () => {
     return await fetch(API_URL);
